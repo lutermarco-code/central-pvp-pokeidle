@@ -420,6 +420,30 @@
       "team_order_basis": "Posições 1–4 de Luter confirmadas pelas entradas do replay; Mega Sceptile confirmado como 5º pela composição recomendada imediatamente antes da luta, mas não entrou em campo. Cinco posições do adversário confirmadas por replay.",
       "source": "Texto colado(20261024-181140).txt (replay completo; 'Luter venceu' aos 2:06)",
       "notes": "Vitória confirmada. Mega Metagross venceu Meganium (Z-PSYCHIC 16.246 + Alloy Breaker 9.411) e desgastou Dragonite; Mega Dragonite finalizou Dragonite adversário com Z-DRAGON de 22.701; Mega Lucario venceu Altaria com ataques STEEL; Mega Gyarados eliminou Steelix com Z-WATER de 24.103 + Mega Maelstrom de 5.292 e Swampert após confronto prolongado, restando 708 HP. Mega Sceptile foi o 5º escalado e não entrou em campo."
+    },
+    {
+      "id": "win_017",
+      "player": "Danzig",
+      "date": "2026-10-24",
+      "duration": "3:42",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Lucario",
+        "✨Mega Metagross",
+        "✨Mega Dragonite"
+      ],
+      "theirs": [
+        "✨Milotic",
+        "✨Mega Blastoise",
+        "✨Vaporeon",
+        "✨Cloyster",
+        "✨Kingdra"
+      ],
+      "entered_count": 3,
+      "team_order_basis": "Primeiras três posições de Luter confirmadas por entradas no replay. Quarta e quinta posições (Mega Metagross, Mega Dragonite) da formação previamente recomendada, reservas não utilizadas; cinco posições adversárias confirmadas por começa com/manda.",
+      "source": "Texto colado(20261024-184828).txt (replay completo fornecido pelo usuário: Luter venceu aos 3:42)",
+      "notes": "Vitória confirmada. Mega Sceptile eliminou Milotic (0:34), Mega Blastoise (1:04) e Vaporeon (1:42). Mega Gyarados entrou e eliminou Cloyster (3:17); enfrentou Kingdra, mas caiu (3:42). Mega Lucario eliminou Kingdra com Z-Move FIGHTING 32.627 (3:42). Mega Metagross e Mega Dragonite configurados como quarta e quinta posições, respectivamente, mas não entraram em combate."
     }
   ],
   "registration_rules": {
