@@ -62,6 +62,9 @@
     },
     {
       "name": "Zator"
+    },
+    {
+      "name": "Cheetos"
     }
   ],
   "wins": [
@@ -780,6 +783,30 @@
       "team_order_basis": "Os cinco Pokémon de cada lado e suas posições foram confirmados pelas linhas 'começa com' e 'manda' do replay vencedor fornecido no chat.",
       "source": "Replay de JP_THE_GOAT vs Luter colado no chat em 2026-10-24 (Luter venceu aos 0:41)",
       "notes": "Vitória confirmada em 41 segundos. Metagross eliminou Meganium (Alloy Breaker 10.015, Mega Forge 10.664 e Z-PSYCHIC final 14.009) e caiu ao Z-GROUND de Garchomp 45.272. Dragonite eliminou Garchomp com Z-DRAGON 31.716 + Mega Cataclysm 6.481, causou Eternal Dragon 1.653 em Gyarados e caiu ao Z-WATER 10.735. Sceptile eliminou Gyarados com Z-GRASS 28.495 e Mega Bloom 6.025, sendo abatido pelo Z-FIRE de Charizard X. Gyarados eliminou Charizard X em duelo longo, com Z-WATER 16.658 e Yawn final 342 aos 0:40, restando 4.552/19.836 HP; caiu ao Z-ROCK de Tyranitar 61.903. Lucario finalizou Tyranitar com Z-FIGHTING 69.126 aos 0:41."
+    },
+    {
+      "id": "win_032",
+      "player": "Cheetos",
+      "date": "2026-10-24",
+      "duration": "1:14",
+      "ours": [
+        "✨Mega Dragonite",
+        "✨Mega Metagross",
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Lucario"
+      ],
+      "theirs": [
+        "✨Mega Dragonite",
+        "✨Mega Venusaur",
+        "✨Mega Lucario",
+        "✨Mega Gengar",
+        "✨Mega Tyranitar"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Todas as cinco posições de ambas as equipes estão confirmadas por 'começa com'/'manda' no replay vencedor, sem inferências.",
+      "source": "Texto colado(20261024-235508).txt — replay completo anexado pelo usuário; 'Luter venceu' aos 1:14.",
+      "notes": "Vitória confirmada contra Cheetos em 1:14. Dragonite aliado abriu contra Dragonite adversário, acertou Z-DRAGON 24.259 e caiu ao Mega Cataclysm 10.909. Metagross eliminou Dragonite com Z-PSYCHIC 13.349 e Venusaur com Mega Forge 2.885 aos 0:37; caiu ao Z-FIGHTING 27.662 do Lucario adversário. Sceptile desgastou Lucario com Z-GRASS 5.031 e ataques seguintes e caiu aos 0:50. Gyarados eliminou Lucario adversário com Z-WATER 20.794, desgastou Gengar até 322 HP e caiu aos 1:13. Lucario de Luter eliminou Gengar com Alloy Breaker 3.883 e derrotou Tyranitar com Z-FIGHTING 95.149 aos 1:14, terminando com 28.573/31.872 HP. Os cinco aliados entraram na sequência registrada."
     }
   ],
   "registration_rules": {
