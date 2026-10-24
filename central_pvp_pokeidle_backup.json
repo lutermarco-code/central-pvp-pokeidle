@@ -345,6 +345,30 @@
       "source": "VITORIA_PENDENTE_JP_THE_GOAT.json (kit de continuidade 24/10/2026)",
       "team_order_basis": "Cinco posições informadas no resumo estruturado da vitória confirmada; entradas individuais não revalidadas nesta conversa",
       "notes": "Vitória confirmada pelo replay, conforme kit de continuidade (15 segundos). O Metagross da equipe de Luter é o Shiny Axiom+5. JP_THE_GOAT é mantido separado de JP até confirmação de identidade."
+    },
+    {
+      "id": "win_010",
+      "player": "Cogu",
+      "date": "2026-10-24",
+      "duration": "1:44",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Dragonite",
+        "✨Mega Metagross",
+        "✨Mega Lucario",
+        "✨Mega Gyarados"
+      ],
+      "theirs": [
+        "✨Mega Alakazam",
+        "✨Mega Blaziken",
+        "✨Mega Venusaur",
+        "✨Mega Tyranitar",
+        "✨Mega Charizard Y"
+      ],
+      "source": "Texto colado(20261024-172812).txt (replay completo; vitória confirmada pelo usuário)",
+      "notes": "Vitória confirmada contra nova rotação. Os cinco Pokémon de ambos os lados entraram na ordem registrada no replay. Sceptile iniciou; Dragonite eliminou Alakazam, Blaziken e Venusaur; Lucario eliminou Tyranitar; Gyarados finalizou Charizard Y com Z-Move WATER (49.537).",
+      "entered_count": 5,
+      "team_order_basis": "Ordem exata dos cinco Pokémon confirmada pelas entradas no replay."
     }
   ],
   "registration_rules": {
