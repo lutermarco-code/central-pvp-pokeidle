@@ -659,6 +659,30 @@
       "team_order_basis": "Cinco entradas de cada lado confirmadas pelos eventos 'começa com'/'manda' do replay de vitória enviado pelo usuário no chat.",
       "source": "Replay completo colado no chat em 2026-10-24: Takemori versus Luter; 'Luter venceu' aos 0:08",
       "notes": "Vitória confirmada em 8 segundos. Gyarados eliminou Charizard Y com Z-WATER 46.420; Blaziken derrubou Gyarados com Z-FIGHTING 52.444; Dragonite eliminou Blaziken com Z-DRAGON 20.849, mas caiu para Z-ROCK de Tyranitar 69.538; Lucario eliminou Tyranitar com Z-FIGHTING 94.094 e desgastou Lucario Z em 18.962; Metagross finalizou Lucario Z com Z-PSYCHIC 13.586 e caiu para Z-GROUND de Garchomp 46.771; Sceptile finalizou Garchomp com Z-GRASS 17.766 + Eternal Dragon 9.174, terminando com 13.150/31.740 HP."
+    },
+    {
+      "id": "win_027",
+      "player": "joaogotty",
+      "date": "2026-10-24",
+      "duration": "2:16",
+      "ours": [
+        "✨Mega Lucario",
+        "✨Mega Metagross",
+        "✨Mega Sceptile",
+        "✨Mega Dragonite",
+        "✨Mega Gyarados"
+      ],
+      "theirs": [
+        "✨Mega Tyranitar",
+        "✨Mega Venusaur",
+        "✨Mega Gyarados",
+        "✨Mega Lucario Z",
+        "✨Mega Charizard Y"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Replay completo confirma os cinco Pokémon de cada equipe e suas ordens exatas pelas linhas 'começa com'/'manda'. A ordem adversária é Tyranitar → Venusaur → Gyarados → Lucario Z → Charizard Y, igual ao print imediatamente anterior.",
+      "source": "Texto colado(20261024-231055).txt (replay completo: joaogotty vs Luter; Luter venceu aos 2:16)",
+      "notes": "Vitória confirmada aos 2:16. Lucario eliminou Tyranitar com Z-FIGHTING 64.378 e Venusaur em duelo prolongado, encerrado por Mega Rampage aos 1:06. Gyarados adversário derrubou Lucario; Metagross causou 1.184 de dano ao Gyarados e caiu. Sceptile eliminou Gyarados com Z-GRASS 32.192 + Mega Bloom 6.068 + Petal Bloom 6.446; Lucario Z eliminou Sceptile. Dragonite derrotou Lucario Z após confronto longo (1:15 a 2:15), finalizando com Massive Hurricane 4.710, mas caiu imediatamente ao Massive Hurricane do Charizard Y. Gyarados de Luter eliminou Charizard Y com Z-WATER 45.746. Todos os cinco aliados entraram em combate."
     }
   ],
   "registration_rules": {
