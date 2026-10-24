@@ -56,6 +56,9 @@
     },
     {
       "name": "PoseidoN"
+    },
+    {
+      "name": "JP_THE_GOAT"
     }
   ],
   "wins": [
@@ -281,7 +284,8 @@
         "✨Mega Dragonite",
         "✨Mega Gyarados",
         "✨Mega Sceptile",
-        "✨Mega Lucario"
+        "✨Mega Lucario",
+        "✨Mega Metagross"
       ],
       "theirs": [
         "✨Mega Lucario",
@@ -291,7 +295,59 @@
         "✨Mega Venusaur"
       ],
       "source": "Texto colado(20261024-150005).txt",
-      "notes": "Vitória confirmada. O Metagross não entrou, logo a quinta posição não é confirmada pelo replay."
+      "notes": "Mega Metagross na 5ª posição da formação previamente combinada; não foi utilizado na batalha. Sua posição não foi vista diretamente no replay.",
+      "entered_count": 4,
+      "team_order_basis": "Ordem sugerida antes da luta + entradas confirmadas no replay (quinto Pokémon era reserva)"
+    },
+    {
+      "id": "win_013",
+      "player": "Scrixel",
+      "date": "2026-10-24",
+      "duration": "1:10",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Metagross",
+        "✨Mega Gyarados",
+        "✨Mega Dragonite",
+        "✨Mega Lucario"
+      ],
+      "theirs": [
+        "✨Mega Blastoise",
+        "✨Mega Clefable",
+        "✨Mega Charizard X",
+        "✨Mega Lucario Z",
+        "✨Mega Abomasnow"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Formação completa recomendada antes da partida e confirmada pelo replay",
+      "source": "Texto colado(20261024-155502).txt",
+      "notes": "Mesma rotação adversária novamente vencida em 24/10/2026; 2 vitórias confirmadas, 1 única ficha, conforme regra de não duplicação. Dragonite eliminou Charizard X e Lucario Z; Lucario eliminou Abomasnow.",
+      "confirmed_win_count": 2,
+      "latest_win_duration": "1:10",
+      "latest_win_source": "Texto colado(20261024-161301).txt"
+    },
+    {
+      "id": "win_014",
+      "player": "JP_THE_GOAT",
+      "date": "2026-10-24",
+      "duration": "0:15",
+      "ours": [
+        "✨Mega Gyarados",
+        "✨Mega Metagross",
+        "✨Mega Dragonite",
+        "✨Mega Lucario",
+        "✨Mega Sceptile"
+      ],
+      "theirs": [
+        "✨Mega Charizard X",
+        "✨Mega Meganium",
+        "✨Mega Garchomp",
+        "✨Mega Tyranitar",
+        "✨Mega Gyarados"
+      ],
+      "source": "VITORIA_PENDENTE_JP_THE_GOAT.json (kit de continuidade 24/10/2026)",
+      "team_order_basis": "Cinco posições informadas no resumo estruturado da vitória confirmada; entradas individuais não revalidadas nesta conversa",
+      "notes": "Vitória confirmada pelo replay, conforme kit de continuidade (15 segundos). O Metagross da equipe de Luter é o Shiny Axiom+5. JP_THE_GOAT é mantido separado de JP até confirmação de identidade."
     }
   ],
   "registration_rules": {
@@ -303,6 +359,267 @@
     "do_not_guess_positions_not_seen_in_replay": true,
     "do_not_label_rotations_as_old_or_current": true,
     "deduplicate_by_player_and_opponent_rotation": true,
-    "keep_one_win_per_player_opponent_rotation": true
-  }
+    "keep_one_win_per_player_opponent_rotation": true,
+    "include_all_five_when_prior_formation_known": true,
+    "mark_confirmed_reserves_as_not_used": true,
+    "never_assume_missing_team_order": true,
+    "entered_count_tracks_pokemon_seen_in_log": true
+  },
+  "unmatched": [
+    {
+      "replay": "JP_THE_GOAT",
+      "registered": "JP",
+      "reason": "Apelido não confirmado — fichas distintas"
+    },
+    {
+      "replay": "Zator",
+      "registered": "Zactor",
+      "reason": "Grafia diferente; associação não confirmada"
+    }
+  ],
+  "current_roster": {
+    "as_of": "2026-10-24",
+    "trainer": "Luter",
+    "team_members": [
+      {
+        "key": "lucario",
+        "name": "Shiny Mega Lucario+12",
+        "species": "Mega Lucario",
+        "level": 2819,
+        "types": [
+          "FIGHTING",
+          "STEEL"
+        ],
+        "z_move_type": "FIGHTING",
+        "potency": "P2",
+        "quality": 1.12,
+        "iv_sum": 134,
+        "iv_max": 192,
+        "pve_power": 4100000000,
+        "pve_battle_hp": 159024,
+        "pvp_power": 6500000,
+        "pvp_effective_level": 562,
+        "shiny_style": "SHINYF / AoE",
+        "stats": {
+          "hp": 13252,
+          "atk": 18862,
+          "def": 13806,
+          "sp_atk": 15848,
+          "sp_def": 12056,
+          "spd": 14636
+        },
+        "ivs": {
+          "hp": 31,
+          "atk": 23,
+          "def": 26,
+          "sp_atk": 10,
+          "sp_def": 26,
+          "spd": 18
+        },
+        "species_base_stats": {
+          "hp": 72,
+          "atk": 148,
+          "def": 90,
+          "sp_atk": 143,
+          "sp_def": 72,
+          "spd": 112
+        },
+        "rating": "Poderoso 6,402/10,0"
+      },
+      {
+        "key": "metagross",
+        "name": "Shiny Axiom+5",
+        "species": "Mega Metagross",
+        "level": 2086,
+        "types": [
+          "STEEL",
+          "PSYCHIC"
+        ],
+        "z_move_type": "PSYCHIC",
+        "potency": "P1",
+        "quality": 1.118,
+        "iv_sum": 147,
+        "iv_max": 192,
+        "pve_power": 1200000000,
+        "pve_battle_hp": 97680,
+        "pvp_power": 3500000,
+        "pvp_effective_level": 490,
+        "shiny_style": "SHINYE",
+        "stats": {
+          "hp": 8140,
+          "atk": 12179,
+          "def": 13068,
+          "sp_atk": 11495,
+          "sp_def": 11700,
+          "spd": 12106
+        },
+        "ivs": {
+          "hp": 18,
+          "atk": 16,
+          "def": 20,
+          "sp_atk": 31,
+          "sp_def": 30,
+          "spd": 32
+        },
+        "species_base_stats": {
+          "hp": 81,
+          "atk": 146,
+          "def": 151,
+          "sp_atk": 106,
+          "sp_def": 111,
+          "spd": 110
+        },
+        "rating": "Poderoso 6,427/10,0"
+      },
+      {
+        "key": "sceptile",
+        "name": "Shiny Mega Sceptile+5",
+        "species": "Mega Sceptile",
+        "level": 1898,
+        "types": [
+          "GRASS",
+          "DRAGON"
+        ],
+        "z_move_type": "GRASS",
+        "potency": "P1",
+        "quality": 1.453,
+        "iv_sum": 111,
+        "iv_max": 192,
+        "pve_power": 1000000000,
+        "pve_battle_hp": 127656,
+        "pvp_power": 3900000,
+        "pvp_effective_level": 470,
+        "shiny_style": "SHINYE",
+        "stats": {
+          "hp": 10638,
+          "atk": 12822,
+          "def": 6756,
+          "sp_atk": 11977,
+          "sp_def": 11056,
+          "spd": 13886
+        },
+        "ivs": {
+          "hp": 30,
+          "atk": 28,
+          "def": 6,
+          "sp_atk": 5,
+          "sp_def": 29,
+          "spd": 13
+        },
+        "species_base_stats": {
+          "hp": 71,
+          "atk": 111,
+          "def": 76,
+          "sp_atk": 146,
+          "sp_def": 86,
+          "spd": 145
+        },
+        "rating": "Poderoso 6,824/10,0"
+      },
+      {
+        "key": "dragonite",
+        "name": "Shiny Mega Dragonite+6",
+        "species": "Mega Dragonite",
+        "level": 1267,
+        "types": [
+          "DRAGON",
+          "FLYING"
+        ],
+        "z_move_type": "DRAGON",
+        "potency": "P1",
+        "quality": 1.36,
+        "iv_sum": 140,
+        "iv_max": 192,
+        "pve_power": 299300000,
+        "pve_battle_hp": 89184,
+        "pvp_power": 2800000,
+        "pvp_effective_level": 392,
+        "shiny_style": "SHINYE",
+        "stats": {
+          "hp": 7432,
+          "atk": 7729,
+          "def": 8264,
+          "sp_atk": 8215,
+          "sp_def": 8944,
+          "spd": 8043
+        },
+        "ivs": {
+          "hp": 27,
+          "atk": 17,
+          "def": 27,
+          "sp_atk": 11,
+          "sp_def": 29,
+          "spd": 29
+        },
+        "species_base_stats": {
+          "hp": 92,
+          "atk": 125,
+          "def": 116,
+          "sp_atk": 147,
+          "sp_def": 126,
+          "spd": 100
+        },
+        "rating": "Mítico 7,004/10,0"
+      },
+      {
+        "key": "gyarados",
+        "name": "Shiny Mega Gyarados+5",
+        "species": "Mega Gyarados",
+        "level": 2217,
+        "types": [
+          "WATER",
+          "DARK"
+        ],
+        "z_move_type": "WATER",
+        "potency": "P1",
+        "quality": 1.117,
+        "iv_sum": 114,
+        "iv_max": 192,
+        "pve_power": 1200000000,
+        "pve_battle_hp": 86880,
+        "pvp_power": 3300000,
+        "pvp_effective_level": 504,
+        "shiny_style": "SHINYF",
+        "stats": {
+          "hp": 7240,
+          "atk": 14097,
+          "def": 11191,
+          "sp_atk": 8793,
+          "sp_def": 12716,
+          "spd": 9679
+        },
+        "ivs": {
+          "hp": 1,
+          "atk": 19,
+          "def": 22,
+          "sp_atk": 25,
+          "sp_def": 22,
+          "spd": 25
+        },
+        "species_base_stats": {
+          "hp": 96,
+          "atk": 156,
+          "def": 110,
+          "sp_atk": 71,
+          "sp_def": 131,
+          "spd": 81
+        },
+        "rating": "Poderoso 6,057/10,0"
+      }
+    ],
+    "important_notes": [
+      "Equipe atual possui 5 Pokémon fixos: Mega Lucario, Mega Metagross (Shiny Axiom), Mega Sceptile, Mega Dragonite e Mega Gyarados.",
+      "Raichu Y não integra mais o time e não está disponível; não sugerir substituição por Raichu.",
+      "Ordem no campo de combate é definida por adversário; esta lista de cadastro não constitui rotação PvP.",
+      "HP de combate informado na ficha corresponde a PvE; não inferir HP de batalha PvP daí.",
+      "Não alterar dados históricos das vitórias anteriores quando atualizar elenco."
+    ]
+  },
+  "important_notes": [
+    "Cogu e Bekazin são jogadores distintos; vitória win_009 pertence a Cogu. Bekazin aguarda vitória confirmada.",
+    "Para Bezeno, Mega Metagross na 5ª posição veio da formação informada antes da vitória; não entrou em combate.",
+    "Scrixel: duas vitórias confirmadas contra a mesma rotação; apenas uma ficha permanece cadastrada.",
+    "JP_THE_GOAT é distinto de JP enquanto identidade não for confirmada.",
+    "Axiom é a designação do Shiny Mega Metagross+5; Raichu é apenas histórico, não faz parte da equipe atual."
+  ]
 }
