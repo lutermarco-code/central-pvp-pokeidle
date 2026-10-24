@@ -683,6 +683,30 @@
       "team_order_basis": "Replay completo confirma os cinco Pokémon de cada equipe e suas ordens exatas pelas linhas 'começa com'/'manda'. A ordem adversária é Tyranitar → Venusaur → Gyarados → Lucario Z → Charizard Y, igual ao print imediatamente anterior.",
       "source": "Texto colado(20261024-231055).txt (replay completo: joaogotty vs Luter; Luter venceu aos 2:16)",
       "notes": "Vitória confirmada aos 2:16. Lucario eliminou Tyranitar com Z-FIGHTING 64.378 e Venusaur em duelo prolongado, encerrado por Mega Rampage aos 1:06. Gyarados adversário derrubou Lucario; Metagross causou 1.184 de dano ao Gyarados e caiu. Sceptile eliminou Gyarados com Z-GRASS 32.192 + Mega Bloom 6.068 + Petal Bloom 6.446; Lucario Z eliminou Sceptile. Dragonite derrotou Lucario Z após confronto longo (1:15 a 2:15), finalizando com Massive Hurricane 4.710, mas caiu imediatamente ao Massive Hurricane do Charizard Y. Gyarados de Luter eliminou Charizard Y com Z-WATER 45.746. Todos os cinco aliados entraram em combate."
+    },
+    {
+      "id": "win_028",
+      "player": "Takemori",
+      "date": "2026-10-24",
+      "duration": "0:22",
+      "ours": [
+        "✨Mega Gyarados",
+        "✨Mega Sceptile",
+        "✨Mega Metagross",
+        "✨Mega Lucario",
+        "✨Mega Dragonite"
+      ],
+      "theirs": [
+        "✨Mega Charizard Y",
+        "✨Mega Garchomp",
+        "✨Mega Lucario Z",
+        "✨Mega Tyranitar",
+        "✨Mega Blaziken"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Sequência completa de cinco entradas para Luter e Takemori confirmada nas linhas 'começa com' e 'manda' do replay enviado pelo usuário.",
+      "source": "Replay completo colado na conversa em 2026-10-24: Takemori vs Luter; 'Luter venceu' aos 0:22",
+      "notes": "Vitória confirmada em 22s. Gyarados eliminou Charizard Y com Z-WATER 44.002, caiu ao Z-GROUND 21.105 de Garchomp. Sceptile eliminou Garchomp com Z-GRASS 18.574 + Eternal Dragon 9.295, mas caiu para Z-FIGHTING 36.063 de Lucario Z. Metagross causou Z-PSYCHIC 13.461 e Mental Singularity 4.693 em Lucario Z, ficou próximo de vencê-lo e caiu aos 0:14. Lucario eliminou Lucario Z com Z-FIGHTING 81.763, venceu Tyranitar com ataques Fighting normais (Meteor Fists 19.159, Mega Rampage 18.791, Close Combat 3.570 e Aura Sphere 2.912) e desgastou Blaziken antes de cair. Dragonite entrou por último e eliminou Blaziken com Z-DRAGON 20.456 aos 0:22."
     }
   ],
   "registration_rules": {
