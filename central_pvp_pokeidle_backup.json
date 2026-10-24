@@ -444,6 +444,30 @@
       "team_order_basis": "Primeiras três posições de Luter confirmadas por entradas no replay. Quarta e quinta posições (Mega Metagross, Mega Dragonite) da formação previamente recomendada, reservas não utilizadas; cinco posições adversárias confirmadas por começa com/manda.",
       "source": "Texto colado(20261024-184828).txt (replay completo fornecido pelo usuário: Luter venceu aos 3:42)",
       "notes": "Vitória confirmada. Mega Sceptile eliminou Milotic (0:34), Mega Blastoise (1:04) e Vaporeon (1:42). Mega Gyarados entrou e eliminou Cloyster (3:17); enfrentou Kingdra, mas caiu (3:42). Mega Lucario eliminou Kingdra com Z-Move FIGHTING 32.627 (3:42). Mega Metagross e Mega Dragonite configurados como quarta e quinta posições, respectivamente, mas não entraram em combate."
+    },
+    {
+      "id": "win_018",
+      "player": "Takemori",
+      "date": "2026-10-24",
+      "duration": "1:24",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Lucario",
+        "✨Mega Dragonite",
+        "✨Mega Metagross"
+      ],
+      "theirs": [
+        "✨Mega Garchomp",
+        "✨Mega Charizard Y",
+        "✨Mega Tyranitar",
+        "✨Mega Lucario Z",
+        "✨Mega Dragonite"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Todos os cinco Pokémon de ambas as equipes foram confirmados pela sequência começa com/manda do replay vencedor.",
+      "source": "Texto colado(20261024-185044).txt (replay completo confirmado: Luter venceu aos 1:24)",
+      "notes": "Vitória confirmada. Sceptile enfraqueceu Garchomp (Z-GRASS 18.083); Gyarados eliminou Garchomp (Z-WATER 19.229) e Charizard Y; Lucario eliminou Tyranitar (Z-FIGHTING 83.442); Dragonite desgastou Lucario Z e caiu; Metagross eliminou Lucario Z com Z-PSYCHIC de 14.713 e depois venceu o Dragonite final, restando 13.319 HP."
     }
   ],
   "registration_rules": {
@@ -712,5 +736,9 @@
     "Scrixel: duas vitórias confirmadas contra a mesma rotação; apenas uma ficha permanece cadastrada.",
     "JP_THE_GOAT possui ficha própria; manter sem fusões automáticas.",
     "Axiom é a designação do Shiny Mega Metagross+5; Raichu é apenas histórico, não faz parte da equipe atual."
-  ]
+  ],
+  "panel_settings": {
+    "hide_wins_with_raichu_in_our_team": true,
+    "hidden_matches_remain_in_backup": true
+  }
 }
