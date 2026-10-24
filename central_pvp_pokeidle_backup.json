@@ -516,6 +516,30 @@
       "team_order_basis": "Ordem de entrada dos cinco Pokémon de cada lado confirmada pelas linhas começa com/manda do replay completo.",
       "source": "Texto colado(20261024-193451).txt (replay completo: Luter venceu aos 1:09)",
       "notes": "Vitória confirmada. Metagross eliminou Venusaur com Z-PSYCHIC 32.048; Sceptile eliminou Gyarados de 45.168 HP após quatro ataques (Z-GRASS 29.266, Mega Bloom 6.605, Petal Bloom 6.687, Eternal Dragon 2.647); Gyarados eliminou Charizard Y com Z-WATER 49.517; Dragonite venceu Lucario Z em confronto prolongado (1:08); Lucario finalizou Tyranitar com Z-FIGHTING 66.381."
+    },
+    {
+      "id": "win_021",
+      "player": "rodrigogurgel",
+      "date": "2026-10-24",
+      "duration": "1:59",
+      "ours": [
+        "✨Mega Metagross",
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Dragonite",
+        "✨Mega Lucario"
+      ],
+      "theirs": [
+        "✨Mega Dragonite",
+        "✨Mega Steelix",
+        "✨Mega Charizard Y",
+        "✨Mega Ampharos",
+        "✨Mega Altaria"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "As cinco posições dos dois times confirmadas diretamente pelos eventos 'começa com' e 'manda' no replay vencedor.",
+      "source": "Texto colado(20261024-204553).txt (replay completo, 'Luter venceu' aos 1:59)",
+      "notes": "Vitória confirmada. Metagross eliminou Dragonite de 33.528 HP após sobreviver ao Z-FLYING de 7.890, restando 1.956/22.992 HP. Steelix eliminou Metagross com Z-GROUND de 30.233. Sceptile eliminou Steelix com Z-GRASS de 13.345 e golpes subsequentes, encerrando com Mega Bloom 3.125; caiu para Charizard Y. Gyarados eliminou Charizard Y com Z-WATER 47.337; caiu para Z-ELECTRIC de Ampharos 42.588. Dragonite eliminou Ampharos com Z-DRAGON 36.058; caiu para Z-DRAGON de Altaria 34.828. Lucario eliminou Altaria com ataques Steel e Fighting em duelo prolongado, finalizado por Flash Cannon 1.395 aos 1:59, restando 22.827/31.764 HP."
     }
   ],
   "registration_rules": {
