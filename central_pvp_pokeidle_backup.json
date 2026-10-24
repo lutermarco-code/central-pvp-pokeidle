@@ -59,6 +59,9 @@
     },
     {
       "name": "rodrigogurgel"
+    },
+    {
+      "name": "Zator"
     }
   ],
   "wins": [
@@ -707,6 +710,29 @@
       "team_order_basis": "Sequência completa de cinco entradas para Luter e Takemori confirmada nas linhas 'começa com' e 'manda' do replay enviado pelo usuário.",
       "source": "Replay completo colado na conversa em 2026-10-24: Takemori vs Luter; 'Luter venceu' aos 0:22",
       "notes": "Vitória confirmada em 22s. Gyarados eliminou Charizard Y com Z-WATER 44.002, caiu ao Z-GROUND 21.105 de Garchomp. Sceptile eliminou Garchomp com Z-GRASS 18.574 + Eternal Dragon 9.295, mas caiu para Z-FIGHTING 36.063 de Lucario Z. Metagross causou Z-PSYCHIC 13.461 e Mental Singularity 4.693 em Lucario Z, ficou próximo de vencê-lo e caiu aos 0:14. Lucario eliminou Lucario Z com Z-FIGHTING 81.763, venceu Tyranitar com ataques Fighting normais (Meteor Fists 19.159, Mega Rampage 18.791, Close Combat 3.570 e Aura Sphere 2.912) e desgastou Blaziken antes de cair. Dragonite entrou por último e eliminou Blaziken com Z-DRAGON 20.456 aos 0:22."
+    },
+    {
+      "id": "win_029",
+      "player": "Zator",
+      "date": "2026-10-24",
+      "duration": "2:58",
+      "ours": [
+        "✨Mega Dragonite",
+        "✨Mega Metagross",
+        "✨Mega Lucario",
+        "✨Mega Sceptile"
+      ],
+      "theirs": [
+        "✨Mega Venusaur",
+        "✨Mega Abomasnow",
+        "✨Mega Tyranitar",
+        "✨Mega Dragonite",
+        "✨Mega Raichu X"
+      ],
+      "entered_count": 4,
+      "team_order_basis": "Os quatro Pokémon de Luter efetivamente utilizados foram confirmados pelas entradas 'começa com'/'manda': Dragonite → Metagross → Lucario → Sceptile. O quinto Pokémon não entrou e sua posição não foi confirmada. Os cinco Pokémon adversários e a ordem estão explícitos no replay.",
+      "source": "Texto colado(20261024-232136).txt (replay completo anexado; 'Luter venceu' aos 2:58)",
+      "notes": "Vitória confirmada contra Zator em 2:58. Dragonite desgastou Venusaur de 44.244 até 26.352 HP, caindo aos 0:41; Metagross eliminou Venusaur com Z-PSYCHIC 21.167 + Mental Singularity 4.166 + Psycho Cut 1.421. Metagross derrotou Abomasnow de 35.640 HP aos 1:21 após duelo longo e morreu para Tyranitar. Lucario eliminou Tyranitar com Z-FIGHTING 136.148, desgastou Dragonite e caiu aos 2:25. Sceptile eliminou Dragonite (Eternal Dragon 7.179 e Draconic Soul 3.864), depois eliminou Raichu X com Grass e golpes sucessivos, finalizando aos 2:58 com Mega Bloom 3.221 e 2.111/31.740 HP. O quinto aliado permaneceu fora do combate e não está confirmado. Não inferir que 'Zactor' é o mesmo jogador 'Zator': registro antigo permanece separado."
     }
   ],
   "registration_rules": {
