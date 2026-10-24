@@ -369,6 +369,30 @@
       "notes": "Vitória confirmada contra nova rotação. Os cinco Pokémon de ambos os lados entraram na ordem registrada no replay. Sceptile iniciou; Dragonite eliminou Alakazam, Blaziken e Venusaur; Lucario eliminou Tyranitar; Gyarados finalizou Charizard Y com Z-Move WATER (49.537).",
       "entered_count": 5,
       "team_order_basis": "Ordem exata dos cinco Pokémon confirmada pelas entradas no replay."
+    },
+    {
+      "id": "win_015",
+      "player": "Cogu",
+      "date": "2026-10-24",
+      "duration": "2:17",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Dragonite",
+        "✨Mega Metagross",
+        "✨Mega Lucario",
+        "✨Mega Gyarados"
+      ],
+      "theirs": [
+        "✨Mega Charizard Y",
+        "✨Mega Venusaur",
+        "✨Mega Alakazam",
+        "✨Mega Tyranitar",
+        "✨Mega Blaziken"
+      ],
+      "source": "Texto colado(20261024-180111).txt (replay completo fornecido pelo usuário; Luter venceu)",
+      "notes": "Vitória confirmada contra a terceira rotação do Cogu. Todos os 5 Pokémon de cada lado entraram na ordem registrada no replay. Mega Sceptile iniciou contra Charizard Y; Dragonite desgastou Charizard; Metagross eliminou Charizard Y e Venusaur; Lucario eliminou Alakazam e Tyranitar; Gyarados eliminou Blaziken com Z-Move WATER de 49.067 de dano.",
+      "entered_count": 5,
+      "team_order_basis": "As cinco posições de ambas as equipes foram confirmadas por começa com/manda no replay."
     }
   ],
   "registration_rules": {
