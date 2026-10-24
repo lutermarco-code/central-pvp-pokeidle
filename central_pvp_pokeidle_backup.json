@@ -10,7 +10,7 @@
       "name": "Soshinmaru"
     },
     {
-      "name": "Joao"
+      "name": "joaogotty"
     },
     {
       "name": "Zactor"
@@ -492,6 +492,30 @@
       "team_order_basis": "Cinco entradas de cada lado confirmadas por começa com/manda no replay completo fornecido no chat.",
       "source": "Replay completo fornecido no chat em 24/10/2026 (Luter venceu, 0:27)",
       "notes": "Vitória confirmada sobre segunda rotação de JP_THE_GOAT. Dragonite eliminou Garchomp com Z-DRAGON 28.200 + Mega Cataclysm 6.187; Metagross derrotou Meganium; Lucario eliminou Tyranitar com Z-FIGHTING 68.501 e causou 9.184 a Gyarados adversário; Sceptile finalizou Gyarados com Z-GRASS 26.977; Gyarados venceu Charizard X, terminando com 5.725/19.788 HP. Todos os cinco Pokémon entraram na ordem registrada."
+    },
+    {
+      "id": "win_020",
+      "player": "joaogotty",
+      "date": "2026-10-24",
+      "duration": "1:09",
+      "ours": [
+        "✨Mega Metagross",
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Dragonite",
+        "✨Mega Lucario"
+      ],
+      "theirs": [
+        "✨Mega Venusaur",
+        "✨Mega Gyarados",
+        "✨Mega Charizard Y",
+        "✨Mega Lucario Z",
+        "✨Mega Tyranitar"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Ordem de entrada dos cinco Pokémon de cada lado confirmada pelas linhas começa com/manda do replay completo.",
+      "source": "Texto colado(20261024-193451).txt (replay completo: Luter venceu aos 1:09)",
+      "notes": "Vitória confirmada. Metagross eliminou Venusaur com Z-PSYCHIC 32.048; Sceptile eliminou Gyarados de 45.168 HP após quatro ataques (Z-GRASS 29.266, Mega Bloom 6.605, Petal Bloom 6.687, Eternal Dragon 2.647); Gyarados eliminou Charizard Y com Z-WATER 49.517; Dragonite venceu Lucario Z em confronto prolongado (1:08); Lucario finalizou Tyranitar com Z-FIGHTING 66.381."
     }
   ],
   "registration_rules": {
