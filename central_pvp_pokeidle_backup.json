@@ -635,6 +635,30 @@
       "team_order_basis": "Os cinco Pokémon das duas equipes e a ordem exata foram confirmados pelos eventos 'começa com' e 'manda' do replay. A ordem adversária observada difere do print anterior de joaogotty.",
       "source": "Texto colado(20261024-225607).txt (replay completo do combate: joaogotty vs Luter; 'Luter venceu' aos 1:24)",
       "notes": "Vitória confirmada, na ordem adversária Venusaur → Lucario Z → Gyarados → Tyranitar → Charizard Y. Metagross eliminou Venusaur com Z-PSYCHIC 33.407 e causou 6.903 em Lucario Z antes de cair. Gyarados eliminou Lucario Z com Z-WATER 40.253, caiu contra Gyarados adversário. Lucario eliminou Gyarados adversário com Z-FIGHTING 44.198, derrotou Tyranitar com ataques Fighting e caiu ao Z-FIRE de Charizard Y. Sceptile desgastou Charizard Y sem vencer e caiu. Dragonite eliminou Charizard Y aos 1:24 após confronto prolongado, com Massive Hurricane 2.478 e apenas 47/28.020 HP restantes. A vitória foi por margem mínima no último duelo."
+    },
+    {
+      "id": "win_026",
+      "player": "Takemori",
+      "date": "2026-10-24",
+      "duration": "0:08",
+      "ours": [
+        "✨Mega Gyarados",
+        "✨Mega Dragonite",
+        "✨Mega Lucario",
+        "✨Mega Metagross",
+        "✨Mega Sceptile"
+      ],
+      "theirs": [
+        "✨Mega Charizard Y",
+        "✨Mega Blaziken",
+        "✨Mega Tyranitar",
+        "✨Mega Lucario Z",
+        "✨Mega Garchomp"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Cinco entradas de cada lado confirmadas pelos eventos 'começa com'/'manda' do replay de vitória enviado pelo usuário no chat.",
+      "source": "Replay completo colado no chat em 2026-10-24: Takemori versus Luter; 'Luter venceu' aos 0:08",
+      "notes": "Vitória confirmada em 8 segundos. Gyarados eliminou Charizard Y com Z-WATER 46.420; Blaziken derrubou Gyarados com Z-FIGHTING 52.444; Dragonite eliminou Blaziken com Z-DRAGON 20.849, mas caiu para Z-ROCK de Tyranitar 69.538; Lucario eliminou Tyranitar com Z-FIGHTING 94.094 e desgastou Lucario Z em 18.962; Metagross finalizou Lucario Z com Z-PSYCHIC 13.586 e caiu para Z-GROUND de Garchomp 46.771; Sceptile finalizou Garchomp com Z-GRASS 17.766 + Eternal Dragon 9.174, terminando com 13.150/31.740 HP."
     }
   ],
   "registration_rules": {
