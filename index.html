@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Central PvP · Histórico de Vitórias PokéIdle</title>
+<style>
+:root{color-scheme:dark;--bg:#080e17;--surface:#101b29;--surface2:#162335;--border:#29394d;--text:#eaf2fd;--muted:#98aabd;--mint:#58e6b5;--yellow:#f6d38e;--blue:#8dbafd}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,Segoe UI,Roboto,Arial,sans-serif;font-size:13px}
+.shell{max-width:900px;margin:0 auto;padding:15px 13px 28px}.head{display:flex;gap:10px;align-items:center;padding:2px 0 15px}.logo{width:43px;height:43px;display:grid;place-items:center;border-radius:13px;background:linear-gradient(140deg,#2b5b63,#303a76);box-shadow:0 0 22px #17507842;font-size:24px}.heading{flex:1;min-width:0}.heading h1{font-size:17px;letter-spacing:.1px;margin:0}.heading p{margin:4px 0 0;color:var(--muted);font-size:11px;line-height:1.4}.pill{display:inline-flex;align-items:center;gap:5px;background:#133a31;color:var(--mint);padding:6px 8px;border-radius:100px;font-size:10px;font-weight:750}
+.stats{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}.stat{flex:1;min-width:92px;background:var(--surface);border:1px solid var(--border);border-radius:11px;padding:10px 12px}.stat strong{display:block;font-size:20px;line-height:1.15}.stat span{display:block;font-size:10px;color:var(--muted);margin-top:5px}
+.layout{display:grid;grid-template-columns:224px minmax(0,1fr);gap:12px}.panel{border:1px solid var(--border);background:var(--surface);border-radius:14px;overflow:hidden}.panel-head{padding:12px 12px 9px;border-bottom:1px solid var(--border);font-size:12px;font-weight:800}.search{width:calc(100% - 18px);margin:9px;border:1px solid var(--border);outline:0;color:var(--text);background:#0b1522;border-radius:8px;padding:10px;font:inherit}.search:focus{border-color:#65a8dc}.filter{display:flex;gap:5px;margin:0 9px 8px}.chip{border:1px solid var(--border);background:var(--surface2);color:var(--muted);border-radius:8px;padding:6px 8px;font-size:10px;cursor:pointer}.chip.active{border-color:var(--mint);color:var(--mint);background:#16342f}.roster{padding:0 7px 9px;display:grid;gap:3px;max-height:65vh;overflow:auto}.name-btn{display:flex;align-items:center;gap:8px;text-align:left;width:100%;border:1px solid transparent;border-radius:9px;background:transparent;color:var(--text);padding:8px;cursor:pointer;font:inherit;font-size:12px}.name-btn:hover{background:#203246}.name-btn.selected{background:#1d3545;border-color:#45798b}.name-btn .player-name{flex:1;min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.small-count{font-size:10px;background:#203040;color:var(--muted);padding:3px 6px;border-radius:6px}.small-count.has{background:#153c32;color:var(--mint)}
+.detail-top{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;margin-bottom:11px}.detail-name{font-size:19px;font-weight:800;margin:0}.muted{color:var(--muted)}.small{font-size:11px}.content{padding:15px 13px}.status{font-size:10px;color:var(--mint);display:block;margin-top:5px}.status.pending{color:var(--muted)}
+.history{display:flex;gap:7px;align-items:center;flex-wrap:wrap;margin-bottom:12px}.history label{font-size:11px;color:var(--muted)}select{min-width:0;max-width:100%;flex:1;background:#0e1b2a;color:var(--text);border:1px solid var(--border);border-radius:8px;padding:9px;font:inherit;font-size:11px}
+.matchup{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.team{min-width:0;background:#0b1623;border:1px solid #263a4a;border-radius:11px;padding:9px 7px}.team.ours{border-top:3px solid var(--mint)}.team.enemy{border-top:3px solid #f68d83}.team-title{font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:space-between;gap:3px;padding:0 4px 8px;min-height:34px}.team-title .type{font-size:9px;color:var(--muted);font-weight:400}
+.pokemon{display:flex;gap:6px;align-items:center;border-top:1px solid #203143;min-height:56px;padding:5px 2px}.index{display:grid;place-items:center;flex:0 0 17px;width:17px;height:20px;border-radius:5px;background:#223349;color:#c8d4e1;font-size:10px;font-weight:700}.sprite{flex:0 0 40px;width:40px;height:40px;display:grid;place-items:center;position:relative;border-radius:8px;background:radial-gradient(circle,#314660 0%,#142233 75%);overflow:hidden}.sprite img{display:block;width:40px;height:40px;object-fit:contain;image-rendering:auto}.sprite .fallback{position:absolute;font-size:18px;z-index:0;color:#a2b9dc}.sprite img{position:relative;z-index:1}.poke-name{font-size:11px;font-weight:650;line-height:1.3;overflow-wrap:anywhere}.shiny{font-size:9px;color:var(--yellow);display:block;margin-top:3px}.unknown{opacity:.52}.unknown .sprite{font-size:16px}.unknown .poke-name{color:var(--muted);font-weight:400}
+.empty{padding:44px 18px;text-align:center;color:var(--muted)}.empty .icon{font-size:30px;margin-bottom:10px}.empty strong{display:block;font-size:13px;color:var(--text);margin-bottom:6px}.empty p{max-width:300px;margin:0 auto;font-size:11px;line-height:1.5}.notes{margin-top:10px;color:var(--muted);font-size:11px;line-height:1.55;background:#0b1623;border-radius:9px;padding:10px;border:1px solid #213245}.notes strong{color:var(--text)}.actions{display:flex;gap:7px;flex-wrap:wrap;margin-top:11px}.btn{cursor:pointer;background:#1a2b3e;border:1px solid #36506a;color:var(--text);font:inherit;font-size:11px;border-radius:9px;padding:9px 11px}.btn:hover{background:#263d54}.btn.primary{background:#173a35;color:var(--mint);border-color:#286a57}.foot{color:var(--muted);text-align:center;font-size:10px;line-height:1.6;margin:12px 3px}.warn{color:var(--yellow)}
+@media(max-width:700px){.layout{grid-template-columns:1fr}.roster{grid-template-columns:repeat(3,minmax(0,1fr));max-height:240px;overflow:auto}.name-btn{padding:8px 5px;font-size:11px}.stats .stat{min-width:0}.panel-head{padding:9px 12px}.shell{padding:10px 10px 24px}}
+@media(max-width:380px){.roster{grid-template-columns:repeat(2,minmax(0,1fr))}.sprite{width:31px;height:35px;flex-basis:31px}.sprite img{width:31px;height:35px}.index{flex-basis:15px}.poke-name{font-size:10px}.team{padding:7px 4px}.pokemon{gap:3px}}
+
+/* Every winning matchup remains accessible in the selected player's history. */
+.records{display:flex;flex-direction:column;gap:12px;margin-top:12px}
+.record{border:1px solid var(--border);border-radius:12px;background:#0c1725;overflow:hidden}
+.record[open]{border-color:#38605f}
+.record summary{display:flex;align-items:center;gap:10px;cursor:pointer;padding:12px 13px;list-style:none;background:#112234}
+.record summary::-webkit-details-marker{display:none}
+.record-number{border-radius:8px;background:#173f36;color:var(--mint);font-size:11px;font-weight:800;padding:6px 8px;white-space:nowrap}
+.record-main{flex:1;min-width:0;font-size:12px;font-weight:800}
+.record-meta{font-size:10px;color:var(--muted);font-weight:450;display:block;margin-top:4px}
+.record-chevron{color:var(--muted);font-size:14px;transform:rotate(-90deg);transition:transform .12s}
+.record[open] .record-chevron{transform:rotate(0deg)}
+.record-content{padding:11px}
+.record .notes{margin-top:8px}
+.records-heading{margin:13px 0 4px;color:var(--muted);font-size:11px}
+@media(max-width:440px){.record-number{padding:5px 6px;font-size:10px}.record summary{padding:10px 8px}.record-content{padding:7px}.record-meta{font-size:9px}}
+
+.syncbar{background:#102232;border:1px solid #294960;padding:11px 12px;border-radius:12px;margin-bottom:12px;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.syncbar .synctext{flex:1;min-width:190px;font-size:11px;line-height:1.55;color:var(--muted)}
+.syncbar .synctext strong{display:block;color:var(--text);font-size:12px}
+.syncbar button{font:inherit;font-size:11px;background:#1b3b42;color:#dffbee;border:1px solid #317368;border-radius:8px;cursor:pointer;padding:8px 10px}
+.syncbar button.secondary{background:#172b40;color:#deeefa;border-color:#365876}
+#syncStatus{display:block;color:var(--mint);font-size:10px;margin-top:4px}
+</style>
+</head>
+<body>
+<div class="shell">
+ <div class="head"><div class="logo">⚔️</div><div class="heading"><h1>Central PvP · PokéIdle</h1><p>Vitórias confirmadas · todas as rotações de cada adversário</p></div><span class="pill">✓ Vitórias</span></div>
+<div class="syncbar">
+ <div class="synctext"><strong>🔄 Atualização do histórico online</strong>Central online: pode deixar esta aba aberta. O histórico é consultado automaticamente e aparece aqui quando for publicado.<span id="syncStatus">Painel atualizado com o histórico desta versão.</span></div>
+ <button id="linkBackup" type="button">📂 Vincular backup (auto)</button>
+ <button id="importBackup" class="secondary" type="button">⬆ Importar JSON</button>
+ <input id="importFile" type="file" accept="application/json,.json" hidden />
+</div>
+ <div class="stats"><div class="stat"><strong id="playersTotal">18</strong><span>Jogadores cadastrados</span></div><div class="stat"><strong id="playersWin">0</strong><span>Com vitórias salvas</span></div><div class="stat"><strong id="winsTotal">0</strong><span>Vitórias confirmadas</span></div></div>
+ <div class="layout"><aside class="panel"><div class="panel-head">👥 Adversários</div><input id="search" class="search" type="search" placeholder="Buscar jogador…" aria-label="Buscar jogador"/><div class="filter"><button class="chip active" data-filter="all">Todos</button><button class="chip" data-filter="with">Com vitórias</button><button class="chip" data-filter="without">Sem registro</button></div><div id="roster" class="roster"></div></aside><section class="panel"><div class="content" id="detail"></div></section></div>
+ <div class="foot">Só entram vitórias confirmadas. Mesma pessoa + mesma rotação adversária não duplica. O painel verifica periodicamente o histórico online. A publicação só acontece após uma atualização confirmada no repositório.</div>
+</div>
+<script id="initial-data" type="application/json">{"format":1,"app":"Central PvP PokéIdle","updated":"2026-10-24","players":[{"name":"Befoin"},{"name":"Soshinmaru"},{"name":"JP"},{"name":"Joao"},{"name":"Zactor"},{"name":"Takemori"},{"name":"Bezeno"},{"name":"Menecito"},{"name":"Lotuzx"},{"name":"Balbin0"},{"name":"Scrixel"},{"name":"SrErva"},{"name":"xAlanx"},{"name":"Danzig"},{"name":"Cogu"},{"name":"Bekazin"},{"name":"Dersin2k"},{"name":"PoseidoN"}],"wins":[{"id":"win_001","player":"Lotuzx","date":"2026-10-24","duration":"2:30","ours":["✨Mega Sceptile","✨Mega Gyarados","✨Mega Lucario"],"theirs":["✨Lairon","✨Golem","✨Shiftry","✨Mega Gyarados","✨Mega Tyranitar"],"source":"Texto colado(20261024-124321).txt","notes":"Ordem registrada conforme as entradas do replay. Posições que não entraram em combate não são confirmadas."},{"id":"win_002","player":"Balbin0","date":"2026-10-24","duration":"1:55","ours":["✨Mega Sceptile","✨Mega Gyarados","✨Mega Lucario","✨Mega Dragonite"],"theirs":["✨Mega Tyranitar","✨Mega Charizard X","✨Mega Alakazam","✨Electivire","✨Mega Dragonite"],"source":"Texto colado(20261024-123744).txt","notes":"Ordem registrada conforme as entradas do replay. Posições que não entraram em combate não são confirmadas."},{"id":"win_003","player":"Danzig","date":"2026-10-17","duration":"3:12","ours":["✨Mega Sceptile","✨Mega Metagross","✨Mega Gyarados","✨Mega Lucario","✨Mega Raichu Y"],"theirs":["✨Mega Blastoise","✨Kingdra","✨Cloyster","✨Vaporeon","✨Milotic"],"source":"Texto colado(20261017-013240).txt","notes":"Formação completa confirmada pela sequência de entradas no replay."},{"id":"win_004","player":"Danzig","date":"2026-10-16","duration":"3:10","ours":["✨Mega Sceptile","✨Mega Metagross","✨Mega Gyarados"],"theirs":["✨Milotic","✨Mega Blastoise","✨Kingdra","✨Shellder","✨Vaporeon"],"source":"Texto colado(20261016-151940).txt","notes":"Ordem registrada conforme as entradas do replay. Posições que não entraram em combate não são confirmadas."},{"id":"win_005","player":"Befoin","date":"2026-10-15","duration":"2:46","ours":["✨Mega Sceptile","✨Mega Gyarados","✨Mega Raichu Y","✨Mega Metagross","✨Mega Lucario"],"theirs":["✨Ampharos","✨Grovyle","✨Blastoise","✨Mega Charizard Y","✨Mega Dragonite"],"source":"Texto colado(20261015-193147).txt","notes":"Formação completa confirmada pela sequência de entradas no replay."},{"id":"win_006","player":"Danzig","date":"2026-10-14","duration":"2:41","ours":["✨Mega Sceptile","✨Mega Gyarados","✨Mega Raichu Y","✨Mega Metagross"],"theirs":["Tentacruel","✨Kingdra","✨Vaporeon","✨Mega Blastoise","✨Milotic"],"source":"Texto colado(20261014-202518).txt","notes":"Ordem registrada conforme as entradas do replay. Posições que não entraram em combate não são confirmadas."},{"id":"win_007","player":"Balbin0","date":"2026-10-14","duration":"1:38","ours":["✨Mega Sceptile","✨Mega Gyarados","✨Mega Lucario","✨Mega Metagross"],"theirs":["✨Mega Raichu Y","✨Mega Tyranitar","✨Mega Dragonite","✨Mega Aggron","✨Mega Charizard Y"],"source":"Texto colado(20261014-183740).txt","notes":"Ordem registrada conforme as entradas do replay. Posições que não entraram em combate não são confirmadas."},{"id":"win_008","player":"Menecito","date":"2026-10-24","duration":"1:59","ours":["✨Mega Gyarados","✨Mega Metagross","✨Mega Dragonite","✨Mega Lucario","✨Mega Sceptile"],"theirs":["✨Sylveon","✨Weavile","✨Infernape","✨Mega Venusaur","✨Gyarados"],"source":"Texto colado(20261024-135100).txt (vitória confirmada pelo usuário)","notes":"Registro da vitória anteriormente confirmada; a sequência completa foi conferida no replay."},{"id":"win_009","player":"Cogu","date":"2026-10-24","duration":"0:12","ours":["✨Mega Sceptile","✨Mega Metagross","✨Mega Gyarados","✨Mega Lucario","✨Mega Dragonite"],"theirs":["✨Mega Alakazam","✨Mega Venusaur","✨Mega Charizard Y","✨Mega Tyranitar","✨Mega Blaziken"],"source":"Replay contra cogu fornecido na conversa em 2026-10-24","notes":"Vitória registrada para Cogu; Bekazin é um jogador diferente."},{"id":"win_011","player":"PoseidoN","date":"2026-10-24","duration":"4:01","ours":["✨Mega Dragonite","✨Mega Lucario","✨Mega Sceptile","✨Mega Gyarados","✨Mega Metagross"],"theirs":["✨Mega Scizor","✨Mega Venusaur","✨Mega Tyranitar","✨Mega Dragonite","✨Mega Clefable"],"source":"Texto colado(20261024-145141).txt","notes":"Vitória confirmada; as cinco posições de ambas as equipes foram extraídas diretamente do replay."},{"id":"win_012","player":"Bezeno","date":"2026-10-24","duration":"3:11","ours":["✨Mega Dragonite","✨Mega Gyarados","✨Mega Sceptile","✨Mega Lucario"],"theirs":["✨Mega Lucario","✨Mega Charizard Y","✨Mega Gyarados","✨Mega Tyranitar","✨Mega Venusaur"],"source":"Texto colado(20261024-150005).txt","notes":"Vitória confirmada. O Metagross não entrou, logo a quinta posição não é confirmada pelo replay."}],"registration_rules":{"record_only_confirmed_victories":true,"do_not_save_team_suggestions_or_losses":true,"preserve_each_winning_match":false,"show_all_winning_opponent_rotations_together":true,"save_exact_order_of_entered_pokemon":true,"do_not_guess_positions_not_seen_in_replay":true,"do_not_label_rotations_as_old_or_current":true,"deduplicate_by_player_and_opponent_rotation":true,"keep_one_win_per_player_opponent_rotation":true}}</script>
+<script>
+(function(){
+ 'use strict';
+ const builtIn=JSON.parse(document.getElementById('initial-data').textContent);
+ 
+ function normalizedKey(w){
+   const clean=v=>String(v||'').replace(/✨/g,'').replace(/\s+/g,' ').trim().toLowerCase();
+   return clean(w.player)+'|'+(w.theirs||[]).map(clean).join('|');
+ }
+ function normalizeData(data){
+   if(!data||!Array.isArray(data.players)||!Array.isArray(data.wins)) throw Error('Arquivo não corresponde a um backup da Central PvP.');
+   const seen=new Set();const wins=[];
+   for(const w of data.wins){
+     if(!w||typeof w.player!=='string'||!Array.isArray(w.ours)||!Array.isArray(w.theirs))continue;
+     const key=normalizedKey(w);
+     if(!seen.has(key)){seen.add(key);wins.push(w)}
+   }
+   return {...data, wins};
+ }
+ let db=normalizeData(builtIn);
+ 
+ let selected='Bezeno';
+ let activeFilter='all';
+ const $=id=>document.getElementById(id);
+ const escapeHtml=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+ const winCount=name=>db.wins.filter(w=>w.player===name).length;
+ function cleanName(raw){return String(raw||'').replace(/✨/g,'').replace(/^Shiny\s*/i,'').replace(/\s*\+\s*\d+$/,'').trim();}
+ function spriteUrl(raw){
+   const key=cleanName(raw).toLowerCase().replace(/^mega\s+/,'').replace(/\s+/g,'');
+   // Pokémon Showdown sprite keys (including Mega form and custom Mega Dragonite fallbacks).
+   const map={
+    'sceptile':['sceptile-mega','sceptile'], 'gyarados':['gyarados-mega','gyarados'], 'lucario':['lucario-mega','lucario'], 'dragonite':['dragonite-mega','dragonite'],
+    'metagross':['metagross-mega','metagross'], 'tyranitar':['tyranitar-mega','tyranitar'], 'charizardx':['charizard-megax','charizard'], 'charizardy':['charizard-megay','charizard'],
+    'blastoise':['blastoise-mega','blastoise'], 'alakazam':['alakazam-mega','alakazam'], 'raichuy':['raichu','raichu'], 'aggron':['aggron-mega','aggron'],
+    'venusaur':['venusaur-mega','venusaur'], 'garchomp':['garchomp-mega','garchomp'], 'blaziken':['blaziken-mega','blaziken'], 'meganium':['meganium-mega','meganium'],
+    'pidgeot':['pidgeot-mega','pidgeot'], 'kingdra':['kingdra','kingdra'], 'electivire':['electivire','electivire'], 'ampharos':['ampharos','ampharos'], 'grovyle':['grovyle','grovyle'],
+    'vaporeon':['vaporeon','vaporeon'], 'milotic':['milotic','milotic'], 'cloyster':['cloyster','cloyster'], 'shellder':['shellder','shellder'], 'tentacruel':['tentacruel','tentacruel'], 'golem':['golem','golem'], 'lairon':['lairon','lairon'], 'shiftry':['shiftry','shiftry']
+   };
+   const a=map[key]||[key,key];
+   const shiny=/✨|Shiny/i.test(raw);
+   const base='https://play.pokemonshowdown.com/sprites/';
+   return [...new Set([
+    (shiny?base+'ani-shiny/':base+'ani/')+a[0]+'.gif',
+    base+'ani/'+a[0]+'.gif',
+    (shiny?base+'ani-shiny/':base+'ani/')+a[1]+'.gif',
+    base+'ani/'+a[1]+'.gif',
+    base+'gen5/'+a[1]+'.png'
+   ])];
+ }
+ function pokemon(raw,i){
+   if(!raw) return `<div class="pokemon unknown"><span class="index">${i+1}</span><span class="sprite">—</span><span class="poke-name">Não confirmado</span></div>`;
+   const urls=spriteUrl(raw);
+   const shiny=/✨|Shiny/i.test(raw);
+   const name=cleanName(raw)+(raw.includes('+6')?' +6':'');
+   const img=`<img alt="" loading="lazy" src="${escapeHtml(urls[0])}" data-candidates="${escapeHtml(JSON.stringify(urls))}" data-try="0" onerror="window.retrySprite(this)" />`;
+   return `<div class="pokemon"><span class="index">${i+1}</span><span class="sprite"><span class="fallback">◈</span>${img}</span><span><span class="poke-name">${escapeHtml(name)}</span>${shiny?'<span class="shiny">✨ Shiny</span>':''}</span></div>`;
+ }
+ window.retrySprite=function(img){
+   let urls=[];try{urls=JSON.parse(img.dataset.candidates||'[]')}catch(e){}
+   let n=Number(img.dataset.try||0)+1;
+   if(n<urls.length){img.dataset.try=n;img.src=urls[n]}
+   else{img.style.display='none'}
+ };
+ function team(title,role,names){
+   return `<div class="team ${role}"><div class="team-title"><span>${escapeHtml(title)}</span><span class="type">1 → 5</span></div>${Array.from({length:5},(_,i)=>pokemon(names[i],i)).join('')}</div>`;
+ }
+ function dateText(str){ if(/^\d{4}-\d{2}-\d{2}$/.test(str)) {let [y,m,d]=str.split('-');return `${d}/${m}/${y}`} return str;}
+ function renderRoster(){
+   const needle=$('search').value.trim().toLocaleLowerCase('pt-BR');
+   const visible=db.players.filter(p=>p.name.toLocaleLowerCase('pt-BR').includes(needle)).filter(p=>activeFilter==='all'||(activeFilter==='with'?winCount(p.name)>0:winCount(p.name)===0));
+   $('roster').innerHTML=visible.map(p=>`<button type="button" class="name-btn ${p.name===selected?'selected':''}" data-person="${escapeHtml(p.name)}"><span class="player-name">${escapeHtml(p.name)}</span><span class="small-count ${winCount(p.name)?'has':''}">${winCount(p.name)} ✓</span></button>`).join('')||'<div class="empty small">Nenhum jogador encontrado.</div>';
+   $('roster').querySelectorAll('[data-person]').forEach(btn=>btn.addEventListener('click',()=>{selected=btn.dataset.person;renderRoster();renderDetail()}));
+ }
+ function renderDetail(){
+   const found=db.wins.filter(w=>w.player===selected).slice().sort((a,b)=>b.date.localeCompare(a.date)||a.id.localeCompare(b.id));
+   if(!found.length){
+     $('detail').innerHTML=`<div class="detail-top"><div><h2 class="detail-name">${escapeHtml(selected)}</h2><span class="status pending">○ Aguardando primeira vitória</span></div></div><div class="empty"><div class="icon">📋</div><strong>Ficha pré-cadastrada</strong><p>Quando você confirmar uma vitória contra ${escapeHtml(selected)}, as duas equipes aparecerão aqui em sua ordem exata, sem apagar as formações anteriores.</p></div>`;
+     return;
+   }
+   const distinctRotations=new Set(found.map(w=>JSON.stringify(w.theirs))).size;
+   const list=found.map((w,i)=>{
+     const incomplete=(w.ours.length<5||w.theirs.length<5);
+     const missingText=incomplete?`<div class="notes">⚠ A ordem corresponde às entradas registradas; posições não exibidas no replay ficam <strong>não confirmadas</strong>.</div>`:'';
+     return `<details class="record" open><summary><span class="record-number">Vitória ${found.length-i}</span><span class="record-main">${escapeHtml(dateText(w.date))}<span class="record-meta">${escapeHtml(w.duration||'Duração não informada')} · Duas formações na ordem da partida</span></span><span class="record-chevron">⌄</span></summary><div class="record-content"><div class="matchup">${team('🟢 Luter','ours',w.ours)}${team('🔴 '+selected,'enemy',w.theirs)}</div>${missingText}<div class="actions"><button class="btn primary copy-match" data-win="${escapeHtml(w.id)}">Copiar esta formação</button></div></div></details>`;
+   }).join('');
+   $('detail').innerHTML=`<div class="detail-top"><div><h2 class="detail-name">${escapeHtml(selected)}</h2><span class="status">✓ ${found.length} ${found.length===1?'vitória registrada':'vitórias registradas'} · ${distinctRotations} ${distinctRotations===1?'rotação adversária':'rotações adversárias'}</span></div><span class="pill">🏆 ${found.length}</span></div><div class="records-heading">Cada rotação adversária aparece uma vez. Clique em uma ficha para recolher ou expandir.</div><div class="records">${list}</div><div class="actions"><button class="btn" id="saveJson">Baixar backup JSON</button></div>`;
+   $('detail').querySelectorAll('.copy-match').forEach(btn=>btn.addEventListener('click',async()=>{
+     const w=found.find(entry=>entry.id===btn.dataset.win);if(!w)return;
+     const line=a=>Array.from({length:5},(_,i)=>`${i+1}. ${a[i]||'Não confirmado'}`).join('\n');
+     const str=`${selected} — Vitória de Luter — ${dateText(w.date)}\n\nMEU TIME\n${line(w.ours)}\n\nADVERSÁRIO\n${line(w.theirs)}`;
+     try{await navigator.clipboard.writeText(str);btn.textContent='Copiado ✓'}catch(e){window.prompt('Copie a formação:',str)}
+   }));
+   $('saveJson').addEventListener('click',saveJson);
+ }
+ function saveJson(){const blob=new Blob([JSON.stringify(db,null,2)],{type:'application/json;charset=utf-8'});const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='backup_central_pvp_pokeidle.json';document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000)}
+ function render(){ $('playersTotal').textContent=db.players.length; $('playersWin').textContent=db.players.filter(p=>winCount(p.name)>0).length; $('winsTotal').textContent=db.wins.length;renderRoster();renderDetail(); }
+ $('search').addEventListener('input',renderRoster);
+ document.querySelectorAll('[data-filter]').forEach(btn=>btn.addEventListener('click',()=>{activeFilter=btn.dataset.filter;document.querySelectorAll('[data-filter]').forEach(b=>b.classList.toggle('active',b===btn));renderRoster()}));
+ render();
+
+ let linkedHandle=null;
+ let lastExternalFile='';
+ let lastServerFile='';
+ const $status=$('syncStatus');
+ function setStatus(message,isError=false){$status.textContent=message;$status.style.color=isError?'#f6a8a1':'var(--mint)'}
+ function mergeData(candidate,origin){
+   const incoming=normalizeData(candidate);
+   const existingKeys=new Set(db.wins.map(normalizedKey));
+   let added=0;
+   for(const w of incoming.wins){
+     const key=normalizedKey(w);
+     if(!existingKeys.has(key)){db.wins.push(w);existingKeys.add(key);added++}
+   }
+   const pkeys=new Set(db.players.map(p=>p.name.toLowerCase()));
+   for(const p of incoming.players){if(p&&typeof p.name==='string'&&!pkeys.has(p.name.toLowerCase())){db.players.push(p);pkeys.add(p.name.toLowerCase())}}
+   if(incoming.current_roster)db.current_roster=incoming.current_roster;
+   db.updated=incoming.updated||db.updated;
+   if(added){
+     const stored=JSON.stringify(db);
+     try{localStorage.setItem('pokeidle-central-live-db',stored)}catch(e){}
+     render();
+     setStatus(`${origin}: ${added} nova(s) rotação(ões) vencedora(s) adicionada(s).`);
+   }else setStatus(`${origin}: arquivo conferido, nenhuma nova rotação.`);
+ }
+ async function readSelectedFile(){
+   if(!linkedHandle)return;
+   try{
+     const file=await linkedHandle.getFile();
+     const text=await file.text();
+     if(text!==lastExternalFile){lastExternalFile=text;mergeData(JSON.parse(text),'Backup vinculado')}
+   }catch(e){setStatus('Não foi possível reler o backup: '+e.message,true)}
+ }
+ $('linkBackup').addEventListener('click',async()=>{
+   if(typeof window.showOpenFilePicker!=='function'){
+     setStatus('Seu navegador não permite acompanhar arquivos locais. Use Importar JSON ou o servidor local do ZIP.',true);
+     return;
+   }
+   try{
+     const handles=await window.showOpenFilePicker({multiple:false,types:[{description:'Backup JSON',accept:{'application/json':['.json']}}]});
+     if(handles.length){linkedHandle=handles[0];lastExternalFile='';setStatus('Arquivo vinculado. Vou verificar mudanças a cada 5 segundos.');await readSelectedFile()}
+   }catch(e){if(e.name!=='AbortError')setStatus('Erro ao vincular: '+e.message,true)}
+ });
+ $('importBackup').addEventListener('click',()=>$('importFile').click());
+ $('importFile').addEventListener('change',async()=>{
+   const file=$('importFile').files?.[0];if(!file)return;
+   try{mergeData(JSON.parse(await file.text()),'Importação manual')}catch(e){setStatus(e.message,true)}
+   $('importFile').value='';
+ });
+ async function readLocalServer(){
+   if(location.protocol!=='http:'&&location.protocol!=='https:')return;
+   try{
+     const response=await fetch('./central_pvp_pokeidle_backup.json?cache='+Date.now(),{cache:'no-store'});
+     if(!response.ok)return;
+     const body=await response.text();
+     if(body!==lastServerFile){
+       const published=normalizeData(JSON.parse(body));
+       lastServerFile=body;
+       db=published;
+       try{localStorage.setItem('pokeidle-central-live-db',JSON.stringify(db))}catch(e){}
+       render();
+       setStatus('Histórico online sincronizado: '+db.wins.length+' rotações vencedoras.');
+     }
+   }catch(e){/* Abrir o HTML no navegador funciona mesmo sem servidor local. */}
+ }
+ try{
+   const stored=localStorage.getItem('pokeidle-central-live-db');
+   if(stored)mergeData(JSON.parse(stored),'Histórico deste navegador');
+ }catch(e){/* Ignora dados locais inválidos */}
+ if(location.protocol==='http:'||location.protocol==='https:')readLocalServer();
+ setInterval(()=>{readSelectedFile();readLocalServer()},5000);
+ document.addEventListener('visibilitychange',()=>{if(!document.hidden){readSelectedFile();readLocalServer()}});
+
+})();
+</script>
+</body>
+</html>
