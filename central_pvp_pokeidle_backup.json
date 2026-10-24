@@ -468,6 +468,30 @@
       "team_order_basis": "Todos os cinco Pokémon de ambas as equipes foram confirmados pela sequência começa com/manda do replay vencedor.",
       "source": "Texto colado(20261024-185044).txt (replay completo confirmado: Luter venceu aos 1:24)",
       "notes": "Vitória confirmada. Sceptile enfraqueceu Garchomp (Z-GRASS 18.083); Gyarados eliminou Garchomp (Z-WATER 19.229) e Charizard Y; Lucario eliminou Tyranitar (Z-FIGHTING 83.442); Dragonite desgastou Lucario Z e caiu; Metagross eliminou Lucario Z com Z-PSYCHIC de 14.713 e depois venceu o Dragonite final, restando 13.319 HP."
+    },
+    {
+      "id": "win_019",
+      "player": "JP_THE_GOAT",
+      "date": "2026-10-24",
+      "duration": "0:27",
+      "ours": [
+        "✨Mega Dragonite",
+        "✨Mega Metagross",
+        "✨Mega Lucario",
+        "✨Mega Sceptile",
+        "✨Mega Gyarados"
+      ],
+      "theirs": [
+        "✨Mega Garchomp",
+        "✨Mega Meganium",
+        "✨Mega Tyranitar",
+        "✨Mega Gyarados",
+        "✨Mega Charizard X"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Cinco entradas de cada lado confirmadas por começa com/manda no replay completo fornecido no chat.",
+      "source": "Replay completo fornecido no chat em 24/10/2026 (Luter venceu, 0:27)",
+      "notes": "Vitória confirmada sobre segunda rotação de JP_THE_GOAT. Dragonite eliminou Garchomp com Z-DRAGON 28.200 + Mega Cataclysm 6.187; Metagross derrotou Meganium; Lucario eliminou Tyranitar com Z-FIGHTING 68.501 e causou 9.184 a Gyarados adversário; Sceptile finalizou Gyarados com Z-GRASS 26.977; Gyarados venceu Charizard X, terminando com 5.725/19.788 HP. Todos os cinco Pokémon entraram na ordem registrada."
     }
   ],
   "registration_rules": {
