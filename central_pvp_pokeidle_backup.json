@@ -564,6 +564,30 @@
       "team_order_basis": "O replay confirma três posições usadas de Luter: Lucario, Gyarados e Dragonite, nessa ordem. Mega Sceptile (4º) e Mega Metagross (5º) foram incluídos com base na formação recomendada e aceita imediatamente antes da partida, mas não entraram em combate. As cinco posições adversárias foram confirmadas por 'começa com/manda'.",
       "source": "Texto colado(20261024-215125).txt (replay completo, 'Luter venceu' aos 2:00)",
       "notes": "Vitória confirmada contra xAlanx em 2:00. Mega Lucario derrotou Tyranitar com Z-FIGHTING 79.437 e Aerodactyl após duelo prolongado, restando 2.968 HP; Blaziken eliminou Lucario com Z-FIGHTING 81.494. Mega Gyarados eliminou Blaziken com Z-WATER 37.767 + Mega Maelstrom 7.634, sobrevivendo ao Meteor Assault de 18.457 com 1.331 HP; Feraligatr eliminou Gyarados. Mega Dragonite eliminou Feraligatr com Z-DRAGON 29.729 e venceu Venusaur após longo duelo, finalizando com Z-DRAGON 8.024 aos 2:00. Sceptile e Metagross permaneceram como reservas não utilizadas."
+    },
+    {
+      "id": "win_023",
+      "player": "Bezeno",
+      "date": "2026-10-24",
+      "duration": "1:18",
+      "ours": [
+        "✨Mega Dragonite",
+        "✨Mega Gyarados",
+        "✨Mega Metagross",
+        "✨Mega Lucario",
+        "✨Mega Sceptile"
+      ],
+      "theirs": [
+        "✨Mega Lucario",
+        "✨Mega Charizard Y",
+        "✨Mega Venusaur",
+        "✨Mega Tyranitar",
+        "✨Mega Gyarados"
+      ],
+      "entered_count": 4,
+      "team_order_basis": "Quatro primeiras posições confirmadas por 'começa com' e 'manda' no replay vencedor: Dragonite → Gyarados → Metagross → Lucario. Quinta posição Sceptile conforme formação recomendada imediatamente antes do combate; reserva que não entrou. Os cinco adversários e sua ordem foram confirmados por 'começa com/manda'.",
+      "source": "Texto colado(20261024-223753).txt (replay confirmado, Luter venceu em 1:18)",
+      "notes": "Vitória confirmada. Dragonite derrotou o Mega Lucario adversário em duelo longo (1:02), e enfraqueceu Charizard Y em 8.590 de Z-DRAGON; Gyarados eliminou Charizard Y com 43.420 de Z-WATER; Metagross eliminou Venusaur com Z-PSYCHIC 28.483 + Mental Singularity 8.132; Lucario eliminou Tyranitar com Z-FIGHTING 107.865 e finalizou o Gyarados adversário com Low Kick 1.364 aos 1:18. Sceptile ficou como reserva não usada."
     }
   ],
   "registration_rules": {
