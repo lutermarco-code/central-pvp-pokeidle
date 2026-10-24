@@ -756,6 +756,30 @@
       "team_order_basis": "As quatro entradas efetivas de Luter foram confirmadas nas linhas 'começa com' e 'manda' do replay: Gyarados, Sceptile, Metagross, Lucario. Não há identificação do quinto Pokémon, que não entrou em batalha; nenhum quinto integrante foi presumido. As cinco posições adversárias foram confirmadas pela sequência de entradas.",
       "source": "Texto colado(20261024-232752).txt (replay vencedor anexado, 'Luter venceu' aos 1:18)",
       "notes": "Vitória confirmada em 1:18 contra sequência Charizard Y → Gyarados → Venusaur → Lucario → Tyranitar. Nosso Gyarados eliminou Charizard Y com Z-WATER 43.278 e foi derrotado pelo Gyarados adversário. Sceptile eliminou Gyarados com Z-GRASS 42.330, desgastou Venusaur em batalha longa e caiu aos 1:08. Metagross eliminou Venusaur com Z-PSYCHIC 28.976 e depois desgastou Lucario adversário, mas caiu aos 1:16. Lucario de Luter eliminou Lucario adversário com Z-FIGHTING 73.380 e Tyranitar com Mega Rampage 21.917 + Meteor Fists 18.555, vencendo aos 1:18. Quinta posição do nosso time não confirmada; não entrou."
+    },
+    {
+      "id": "win_031",
+      "player": "JP_THE_GOAT",
+      "date": "2026-10-24",
+      "duration": "0:41",
+      "ours": [
+        "✨Mega Metagross",
+        "✨Mega Dragonite",
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Lucario"
+      ],
+      "theirs": [
+        "✨Mega Meganium",
+        "✨Mega Garchomp",
+        "✨Mega Gyarados",
+        "✨Mega Charizard X",
+        "✨Mega Tyranitar"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Os cinco Pokémon de cada lado e suas posições foram confirmados pelas linhas 'começa com' e 'manda' do replay vencedor fornecido no chat.",
+      "source": "Replay de JP_THE_GOAT vs Luter colado no chat em 2026-10-24 (Luter venceu aos 0:41)",
+      "notes": "Vitória confirmada em 41 segundos. Metagross eliminou Meganium (Alloy Breaker 10.015, Mega Forge 10.664 e Z-PSYCHIC final 14.009) e caiu ao Z-GROUND de Garchomp 45.272. Dragonite eliminou Garchomp com Z-DRAGON 31.716 + Mega Cataclysm 6.481, causou Eternal Dragon 1.653 em Gyarados e caiu ao Z-WATER 10.735. Sceptile eliminou Gyarados com Z-GRASS 28.495 e Mega Bloom 6.025, sendo abatido pelo Z-FIRE de Charizard X. Gyarados eliminou Charizard X em duelo longo, com Z-WATER 16.658 e Yawn final 342 aos 0:40, restando 4.552/19.836 HP; caiu ao Z-ROCK de Tyranitar 61.903. Lucario finalizou Tyranitar com Z-FIGHTING 69.126 aos 0:41."
     }
   ],
   "registration_rules": {
