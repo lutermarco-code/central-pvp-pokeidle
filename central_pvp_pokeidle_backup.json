@@ -540,6 +540,30 @@
       "team_order_basis": "As cinco posições dos dois times confirmadas diretamente pelos eventos 'começa com' e 'manda' no replay vencedor.",
       "source": "Texto colado(20261024-204553).txt (replay completo, 'Luter venceu' aos 1:59)",
       "notes": "Vitória confirmada. Metagross eliminou Dragonite de 33.528 HP após sobreviver ao Z-FLYING de 7.890, restando 1.956/22.992 HP. Steelix eliminou Metagross com Z-GROUND de 30.233. Sceptile eliminou Steelix com Z-GRASS de 13.345 e golpes subsequentes, encerrando com Mega Bloom 3.125; caiu para Charizard Y. Gyarados eliminou Charizard Y com Z-WATER 47.337; caiu para Z-ELECTRIC de Ampharos 42.588. Dragonite eliminou Ampharos com Z-DRAGON 36.058; caiu para Z-DRAGON de Altaria 34.828. Lucario eliminou Altaria com ataques Steel e Fighting em duelo prolongado, finalizado por Flash Cannon 1.395 aos 1:59, restando 22.827/31.764 HP."
+    },
+    {
+      "id": "win_022",
+      "player": "xAlanx",
+      "date": "2026-10-24",
+      "duration": "2:00",
+      "ours": [
+        "✨Mega Lucario",
+        "✨Mega Gyarados",
+        "✨Mega Dragonite",
+        "✨Mega Sceptile",
+        "✨Mega Metagross"
+      ],
+      "theirs": [
+        "✨Mega Tyranitar",
+        "✨Mega Aerodactyl",
+        "✨Mega Blaziken",
+        "✨Mega Feraligatr",
+        "✨Mega Venusaur"
+      ],
+      "entered_count": 3,
+      "team_order_basis": "O replay confirma três posições usadas de Luter: Lucario, Gyarados e Dragonite, nessa ordem. Mega Sceptile (4º) e Mega Metagross (5º) foram incluídos com base na formação recomendada e aceita imediatamente antes da partida, mas não entraram em combate. As cinco posições adversárias foram confirmadas por 'começa com/manda'.",
+      "source": "Texto colado(20261024-215125).txt (replay completo, 'Luter venceu' aos 2:00)",
+      "notes": "Vitória confirmada contra xAlanx em 2:00. Mega Lucario derrotou Tyranitar com Z-FIGHTING 79.437 e Aerodactyl após duelo prolongado, restando 2.968 HP; Blaziken eliminou Lucario com Z-FIGHTING 81.494. Mega Gyarados eliminou Blaziken com Z-WATER 37.767 + Mega Maelstrom 7.634, sobrevivendo ao Meteor Assault de 18.457 com 1.331 HP; Feraligatr eliminou Gyarados. Mega Dragonite eliminou Feraligatr com Z-DRAGON 29.729 e venceu Venusaur após longo duelo, finalizando com Z-DRAGON 8.024 aos 2:00. Sceptile e Metagross permaneceram como reservas não utilizadas."
     }
   ],
   "registration_rules": {
