@@ -1,0 +1,308 @@
+{
+  "format": 1,
+  "app": "Central PvP PokéIdle",
+  "updated": "2026-10-24",
+  "players": [
+    {
+      "name": "Befoin"
+    },
+    {
+      "name": "Soshinmaru"
+    },
+    {
+      "name": "JP"
+    },
+    {
+      "name": "Joao"
+    },
+    {
+      "name": "Zactor"
+    },
+    {
+      "name": "Takemori"
+    },
+    {
+      "name": "Bezeno"
+    },
+    {
+      "name": "Menecito"
+    },
+    {
+      "name": "Lotuzx"
+    },
+    {
+      "name": "Balbin0"
+    },
+    {
+      "name": "Scrixel"
+    },
+    {
+      "name": "SrErva"
+    },
+    {
+      "name": "xAlanx"
+    },
+    {
+      "name": "Danzig"
+    },
+    {
+      "name": "Cogu"
+    },
+    {
+      "name": "Bekazin"
+    },
+    {
+      "name": "Dersin2k"
+    },
+    {
+      "name": "PoseidoN"
+    }
+  ],
+  "wins": [
+    {
+      "id": "win_001",
+      "player": "Lotuzx",
+      "date": "2026-10-24",
+      "duration": "2:30",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Lucario"
+      ],
+      "theirs": [
+        "✨Lairon",
+        "✨Golem",
+        "✨Shiftry",
+        "✨Mega Gyarados",
+        "✨Mega Tyranitar"
+      ],
+      "source": "Texto colado(20261024-124321).txt",
+      "notes": "Ordem registrada conforme as entradas do replay. Posições que não entraram em combate não são confirmadas."
+    },
+    {
+      "id": "win_002",
+      "player": "Balbin0",
+      "date": "2026-10-24",
+      "duration": "1:55",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Lucario",
+        "✨Mega Dragonite"
+      ],
+      "theirs": [
+        "✨Mega Tyranitar",
+        "✨Mega Charizard X",
+        "✨Mega Alakazam",
+        "✨Electivire",
+        "✨Mega Dragonite"
+      ],
+      "source": "Texto colado(20261024-123744).txt",
+      "notes": "Ordem registrada conforme as entradas do replay. Posições que não entraram em combate não são confirmadas."
+    },
+    {
+      "id": "win_003",
+      "player": "Danzig",
+      "date": "2026-10-17",
+      "duration": "3:12",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Metagross",
+        "✨Mega Gyarados",
+        "✨Mega Lucario",
+        "✨Mega Raichu Y"
+      ],
+      "theirs": [
+        "✨Mega Blastoise",
+        "✨Kingdra",
+        "✨Cloyster",
+        "✨Vaporeon",
+        "✨Milotic"
+      ],
+      "source": "Texto colado(20261017-013240).txt",
+      "notes": "Formação completa confirmada pela sequência de entradas no replay."
+    },
+    {
+      "id": "win_004",
+      "player": "Danzig",
+      "date": "2026-10-16",
+      "duration": "3:10",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Metagross",
+        "✨Mega Gyarados"
+      ],
+      "theirs": [
+        "✨Milotic",
+        "✨Mega Blastoise",
+        "✨Kingdra",
+        "✨Shellder",
+        "✨Vaporeon"
+      ],
+      "source": "Texto colado(20261016-151940).txt",
+      "notes": "Ordem registrada conforme as entradas do replay. Posições que não entraram em combate não são confirmadas."
+    },
+    {
+      "id": "win_005",
+      "player": "Befoin",
+      "date": "2026-10-15",
+      "duration": "2:46",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Raichu Y",
+        "✨Mega Metagross",
+        "✨Mega Lucario"
+      ],
+      "theirs": [
+        "✨Ampharos",
+        "✨Grovyle",
+        "✨Blastoise",
+        "✨Mega Charizard Y",
+        "✨Mega Dragonite"
+      ],
+      "source": "Texto colado(20261015-193147).txt",
+      "notes": "Formação completa confirmada pela sequência de entradas no replay."
+    },
+    {
+      "id": "win_006",
+      "player": "Danzig",
+      "date": "2026-10-14",
+      "duration": "2:41",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Raichu Y",
+        "✨Mega Metagross"
+      ],
+      "theirs": [
+        "Tentacruel",
+        "✨Kingdra",
+        "✨Vaporeon",
+        "✨Mega Blastoise",
+        "✨Milotic"
+      ],
+      "source": "Texto colado(20261014-202518).txt",
+      "notes": "Ordem registrada conforme as entradas do replay. Posições que não entraram em combate não são confirmadas."
+    },
+    {
+      "id": "win_007",
+      "player": "Balbin0",
+      "date": "2026-10-14",
+      "duration": "1:38",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Lucario",
+        "✨Mega Metagross"
+      ],
+      "theirs": [
+        "✨Mega Raichu Y",
+        "✨Mega Tyranitar",
+        "✨Mega Dragonite",
+        "✨Mega Aggron",
+        "✨Mega Charizard Y"
+      ],
+      "source": "Texto colado(20261014-183740).txt",
+      "notes": "Ordem registrada conforme as entradas do replay. Posições que não entraram em combate não são confirmadas."
+    },
+    {
+      "id": "win_008",
+      "player": "Menecito",
+      "date": "2026-10-24",
+      "duration": "1:59",
+      "ours": [
+        "✨Mega Gyarados",
+        "✨Mega Metagross",
+        "✨Mega Dragonite",
+        "✨Mega Lucario",
+        "✨Mega Sceptile"
+      ],
+      "theirs": [
+        "✨Sylveon",
+        "✨Weavile",
+        "✨Infernape",
+        "✨Mega Venusaur",
+        "✨Gyarados"
+      ],
+      "source": "Texto colado(20261024-135100).txt (vitória confirmada pelo usuário)",
+      "notes": "Registro da vitória anteriormente confirmada; a sequência completa foi conferida no replay."
+    },
+    {
+      "id": "win_009",
+      "player": "Cogu",
+      "date": "2026-10-24",
+      "duration": "0:12",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Metagross",
+        "✨Mega Gyarados",
+        "✨Mega Lucario",
+        "✨Mega Dragonite"
+      ],
+      "theirs": [
+        "✨Mega Alakazam",
+        "✨Mega Venusaur",
+        "✨Mega Charizard Y",
+        "✨Mega Tyranitar",
+        "✨Mega Blaziken"
+      ],
+      "source": "Replay contra cogu fornecido na conversa em 2026-10-24",
+      "notes": "Vitória registrada para Cogu; Bekazin é um jogador diferente."
+    },
+    {
+      "id": "win_011",
+      "player": "PoseidoN",
+      "date": "2026-10-24",
+      "duration": "4:01",
+      "ours": [
+        "✨Mega Dragonite",
+        "✨Mega Lucario",
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Metagross"
+      ],
+      "theirs": [
+        "✨Mega Scizor",
+        "✨Mega Venusaur",
+        "✨Mega Tyranitar",
+        "✨Mega Dragonite",
+        "✨Mega Clefable"
+      ],
+      "source": "Texto colado(20261024-145141).txt",
+      "notes": "Vitória confirmada; as cinco posições de ambas as equipes foram extraídas diretamente do replay."
+    },
+    {
+      "id": "win_012",
+      "player": "Bezeno",
+      "date": "2026-10-24",
+      "duration": "3:11",
+      "ours": [
+        "✨Mega Dragonite",
+        "✨Mega Gyarados",
+        "✨Mega Sceptile",
+        "✨Mega Lucario"
+      ],
+      "theirs": [
+        "✨Mega Lucario",
+        "✨Mega Charizard Y",
+        "✨Mega Gyarados",
+        "✨Mega Tyranitar",
+        "✨Mega Venusaur"
+      ],
+      "source": "Texto colado(20261024-150005).txt",
+      "notes": "Vitória confirmada. O Metagross não entrou, logo a quinta posição não é confirmada pelo replay."
+    }
+  ],
+  "registration_rules": {
+    "record_only_confirmed_victories": true,
+    "do_not_save_team_suggestions_or_losses": true,
+    "preserve_each_winning_match": false,
+    "show_all_winning_opponent_rotations_together": true,
+    "save_exact_order_of_entered_pokemon": true,
+    "do_not_guess_positions_not_seen_in_replay": true,
+    "do_not_label_rotations_as_old_or_current": true,
+    "deduplicate_by_player_and_opponent_rotation": true,
+    "keep_one_win_per_player_opponent_rotation": true
+  }
+}
