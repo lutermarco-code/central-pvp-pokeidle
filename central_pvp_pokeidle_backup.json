@@ -588,6 +588,29 @@
       "team_order_basis": "Quatro primeiras posições confirmadas por 'começa com' e 'manda' no replay vencedor: Dragonite → Gyarados → Metagross → Lucario. Quinta posição Sceptile conforme formação recomendada imediatamente antes do combate; reserva que não entrou. Os cinco adversários e sua ordem foram confirmados por 'começa com/manda'.",
       "source": "Texto colado(20261024-223753).txt (replay confirmado, Luter venceu em 1:18)",
       "notes": "Vitória confirmada. Dragonite derrotou o Mega Lucario adversário em duelo longo (1:02), e enfraqueceu Charizard Y em 8.590 de Z-DRAGON; Gyarados eliminou Charizard Y com 43.420 de Z-WATER; Metagross eliminou Venusaur com Z-PSYCHIC 28.483 + Mental Singularity 8.132; Lucario eliminou Tyranitar com Z-FIGHTING 107.865 e finalizou o Gyarados adversário com Low Kick 1.364 aos 1:18. Sceptile ficou como reserva não usada."
+    },
+    {
+      "id": "win_024",
+      "player": "Lotuzx",
+      "date": "2026-10-24",
+      "duration": "1:37",
+      "ours": [
+        "✨Mega Metagross",
+        "✨Mega Gyarados",
+        "✨Mega Lucario",
+        "✨Mega Sceptile"
+      ],
+      "theirs": [
+        "✨Lairon",
+        "✨Shiftry",
+        "✨Mega Tyranitar",
+        "✨Mega Gyarados",
+        "✨Golem"
+      ],
+      "entered_count": 4,
+      "team_order_basis": "Replay de 2026-10-24 22:54 confirma por 'começa com'/'manda' os quatro Pokémon que efetivamente entraram em campo: Mega Metagross, Mega Gyarados, Mega Lucario e Mega Sceptile. O quinto slot da formação de Luter NÃO consta do replay e foi deixado não informado; não presumir Mega Dragonite. Todas as cinco posições adversárias estão confirmadas.",
+      "source": "Texto colado(20261024-225413).txt (replay completo: lotuzx vs Luter, 'Luter venceu' em 1:37)",
+      "notes": "Vitória confirmada sobre a nova rotação de Lotuzx: Lairon → Shiftry → Mega Tyranitar → Mega Gyarados → Golem. Metagross eliminou Lairon com Z-PSYCHIC de 10.635 e desgastou Shiftry; Gyarados desgastou Shiftry e caiu; Lucario eliminou Shiftry com Z-FIGHTING de 75.461 e Mega Tyranitar por golpes Fighting (Low Kick 1.473 final); Mega Gyarados adversário eliminou Lucario com Z-WATER 19.355; Sceptile eliminou Mega Gyarados com Z-GRASS 35.547 e Golem com Mega Bloom 24.201 + Petal Bloom 23.477. Quinto Pokémon aliado não foi mostrado; vitória aos 1:37."
     }
   ],
   "registration_rules": {
