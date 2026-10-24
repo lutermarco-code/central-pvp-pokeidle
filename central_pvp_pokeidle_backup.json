@@ -10,9 +10,6 @@
       "name": "Soshinmaru"
     },
     {
-      "name": "JP"
-    },
-    {
       "name": "Joao"
     },
     {
@@ -367,11 +364,6 @@
   },
   "unmatched": [
     {
-      "replay": "JP_THE_GOAT",
-      "registered": "JP",
-      "reason": "Apelido não confirmado — fichas distintas"
-    },
-    {
       "replay": "Zator",
       "registered": "Zactor",
       "reason": "Grafia diferente; associação não confirmada"
@@ -619,7 +611,7 @@
     "Cogu e Bekazin são jogadores distintos; vitória win_009 pertence a Cogu. Bekazin aguarda vitória confirmada.",
     "Para Bezeno, Mega Metagross na 5ª posição veio da formação informada antes da vitória; não entrou em combate.",
     "Scrixel: duas vitórias confirmadas contra a mesma rotação; apenas uma ficha permanece cadastrada.",
-    "JP_THE_GOAT é distinto de JP enquanto identidade não for confirmada.",
+    "JP_THE_GOAT possui ficha própria; manter sem fusões automáticas.",
     "Axiom é a designação do Shiny Mega Metagross+5; Raichu é apenas histórico, não faz parte da equipe atual."
   ]
 }
