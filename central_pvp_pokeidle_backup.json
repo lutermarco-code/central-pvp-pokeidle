@@ -733,6 +733,29 @@
       "team_order_basis": "Os quatro Pokémon de Luter efetivamente utilizados foram confirmados pelas entradas 'começa com'/'manda': Dragonite → Metagross → Lucario → Sceptile. O quinto Pokémon não entrou e sua posição não foi confirmada. Os cinco Pokémon adversários e a ordem estão explícitos no replay.",
       "source": "Texto colado(20261024-232136).txt (replay completo anexado; 'Luter venceu' aos 2:58)",
       "notes": "Vitória confirmada contra Zator em 2:58. Dragonite desgastou Venusaur de 44.244 até 26.352 HP, caindo aos 0:41; Metagross eliminou Venusaur com Z-PSYCHIC 21.167 + Mental Singularity 4.166 + Psycho Cut 1.421. Metagross derrotou Abomasnow de 35.640 HP aos 1:21 após duelo longo e morreu para Tyranitar. Lucario eliminou Tyranitar com Z-FIGHTING 136.148, desgastou Dragonite e caiu aos 2:25. Sceptile eliminou Dragonite (Eternal Dragon 7.179 e Draconic Soul 3.864), depois eliminou Raichu X com Grass e golpes sucessivos, finalizando aos 2:58 com Mega Bloom 3.221 e 2.111/31.740 HP. O quinto aliado permaneceu fora do combate e não está confirmado. Não inferir que 'Zactor' é o mesmo jogador 'Zator': registro antigo permanece separado."
+    },
+    {
+      "id": "win_030",
+      "player": "Bezeno",
+      "date": "2026-10-24",
+      "duration": "1:18",
+      "ours": [
+        "✨Mega Gyarados",
+        "✨Mega Sceptile",
+        "✨Mega Metagross",
+        "✨Mega Lucario"
+      ],
+      "theirs": [
+        "✨Mega Charizard Y",
+        "✨Mega Gyarados",
+        "✨Mega Venusaur",
+        "✨Mega Lucario",
+        "✨Mega Tyranitar"
+      ],
+      "entered_count": 4,
+      "team_order_basis": "As quatro entradas efetivas de Luter foram confirmadas nas linhas 'começa com' e 'manda' do replay: Gyarados, Sceptile, Metagross, Lucario. Não há identificação do quinto Pokémon, que não entrou em batalha; nenhum quinto integrante foi presumido. As cinco posições adversárias foram confirmadas pela sequência de entradas.",
+      "source": "Texto colado(20261024-232752).txt (replay vencedor anexado, 'Luter venceu' aos 1:18)",
+      "notes": "Vitória confirmada em 1:18 contra sequência Charizard Y → Gyarados → Venusaur → Lucario → Tyranitar. Nosso Gyarados eliminou Charizard Y com Z-WATER 43.278 e foi derrotado pelo Gyarados adversário. Sceptile eliminou Gyarados com Z-GRASS 42.330, desgastou Venusaur em batalha longa e caiu aos 1:08. Metagross eliminou Venusaur com Z-PSYCHIC 28.976 e depois desgastou Lucario adversário, mas caiu aos 1:16. Lucario de Luter eliminou Lucario adversário com Z-FIGHTING 73.380 e Tyranitar com Mega Rampage 21.917 + Meteor Fists 18.555, vencendo aos 1:18. Quinta posição do nosso time não confirmada; não entrou."
     }
   ],
   "registration_rules": {
