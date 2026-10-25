@@ -1,7 +1,7 @@
 {
   "format": 1,
   "app": "Central PvP PokéIdle",
-  "updated": "2026-10-24",
+  "updated": "2026-10-25",
   "players": [
     {
       "name": "Befoin"
@@ -807,6 +807,30 @@
       "team_order_basis": "Todas as cinco posições de ambas as equipes estão confirmadas por 'começa com'/'manda' no replay vencedor, sem inferências.",
       "source": "Texto colado(20261024-235508).txt — replay completo anexado pelo usuário; 'Luter venceu' aos 1:14.",
       "notes": "Vitória confirmada contra Cheetos em 1:14. Dragonite aliado abriu contra Dragonite adversário, acertou Z-DRAGON 24.259 e caiu ao Mega Cataclysm 10.909. Metagross eliminou Dragonite com Z-PSYCHIC 13.349 e Venusaur com Mega Forge 2.885 aos 0:37; caiu ao Z-FIGHTING 27.662 do Lucario adversário. Sceptile desgastou Lucario com Z-GRASS 5.031 e ataques seguintes e caiu aos 0:50. Gyarados eliminou Lucario adversário com Z-WATER 20.794, desgastou Gengar até 322 HP e caiu aos 1:13. Lucario de Luter eliminou Gengar com Alloy Breaker 3.883 e derrotou Tyranitar com Z-FIGHTING 95.149 aos 1:14, terminando com 28.573/31.872 HP. Os cinco aliados entraram na sequência registrada."
+    },
+    {
+      "id": "win_033",
+      "player": "rodrigogurgel",
+      "date": "2026-10-25",
+      "duration": "2:39",
+      "ours": [
+        "✨Mega Sceptile",
+        "✨Mega Gyarados",
+        "✨Mega Dragonite",
+        "✨Mega Lucario",
+        "✨Mega Metagross"
+      ],
+      "theirs": [
+        "✨Mega Steelix",
+        "✨Mega Charizard Y",
+        "✨Mega Ampharos",
+        "✨Mega Swampert",
+        "✨Mega Dragonite"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "O replay de vitória confirma as cinco posições de ambos os times pelos eventos 'começa com'/'manda'. No print que antecedeu o replay, a sequência adversária era Swampert → Charizard Y → Ampharos → Steelix → Dragonite, mas no combate efetivo foi Steelix → Charizard Y → Ampharos → Swampert → Dragonite; foi preservada a sequência REAL observada.",
+      "source": "Texto colado(20261025-001507).txt (replay completo, Luter venceu aos 2:39; nome de arquivo sugere data local 25/10/2026)",
+      "notes": "Vitória confirmada em 2:39. Sceptile derrotou Steelix com Z-GRASS 15.219 e Mega Bloom final 2.982 aos 0:33, caiu ao Z-FIRE de Charizard Y. Gyarados derrotou Charizard Y com Z-WATER 52.147 e caiu ao Z-ELECTRIC 43.750 de Ampharos. Dragonite derrotou Ampharos com Z-DRAGON 35.656, depois venceu Swampert em duelo prolongado finalizado por segundo Z-DRAGON de 17.948 aos 1:36, caiu ao Z-FLYING 26.292 do Dragonite adversário. Lucario atacou o Dragonite adversário em duelo longo, recebendo segundo Z-FLYING 30.075 e caindo aos 2:38. Metagross finalizou o Dragonite adversário com Z-PSYCHIC 11.329 + Alloy Breaker 3.001 aos 2:39, restando 21.558/23.088 HP. Todos cinco aliados entraram."
     }
   ],
   "registration_rules": {
