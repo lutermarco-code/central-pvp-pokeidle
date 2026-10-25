@@ -951,6 +951,30 @@
       "team_order_basis": "Os cinco Pokémon de cada time e sua ordem exata de entrada estão confirmados pelos eventos 'começa com' e 'manda' no replay completo do usuário.",
       "source": "Texto colado(20261025-011548).txt — replay completo anexado; 'Luter venceu' aos 1:09.",
       "notes": "Vitória confirmada em 1:09. Metagross eliminou Venusaur com Z-PSYCHIC 33.212 aos 0:02 e caiu ao Z-FIRE 71.351 de Charizard Y. Gyarados venceu Charizard Y com Z-WATER 49.766 aos 0:03 e caiu ao Z-ROCK 40.822 de Tyranitar. Lucario eliminou Tyranitar com Z-FIGHTING 70.770 aos 0:04 e caiu ao Z-WATER 34.143 do Gyarados adversário. Sceptile eliminou Gyarados com Z-GRASS 30.427, Mega Bloom 6.222, Petal Bloom 6.615 e Eternal Dragon 2.723 aos 0:08; caiu ao Z-FIGHTING 22.852 de Lucario Z. Dragonite derrotou Lucario Z aos 1:09 com Massive Hurricane final 5.215; venceu restando 8.415/28.152 HP."
+    },
+    {
+      "id": "win_039",
+      "player": "joaogotty",
+      "date": "2026-10-25",
+      "duration": "2:15",
+      "ours": [
+        "✨Mega Lucario",
+        "✨Mega Metagross",
+        "✨Mega Gyarados",
+        "✨Mega Dragonite",
+        "✨Mega Sceptile"
+      ],
+      "theirs": [
+        "✨Mega Tyranitar",
+        "✨Mega Venusaur",
+        "✨Mega Charizard Y",
+        "✨Mega Lucario Z",
+        "✨Mega Gyarados"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Os cinco Pokémon dos dois times e sua ordem exata de entrada foram confirmados pelas linhas 'começa com' e 'manda' do replay fornecido pelo usuário. A ordem é de entrada, não necessariamente dos duelos individuais.",
+      "source": "Texto colado(20261025-012646).txt — replay completo enviado pelo usuário, 'Luter venceu' aos 2:15.",
+      "notes": "Vitória confirmada em 2min15s. Lucario derrotou Tyranitar com Z-FIGHTING 68.733 aos 0:02 e depois derrotou Venusaur em confronto longo, finalizado com Meteor Fists 1.328 aos 1:07; caiu para Z-FIRE 76.830 do Charizard Y. Metagross entrou contra Charizard Y, causou Z-PSYCHIC 9.262 + Mental Singularity 3.267 e caiu. Gyarados eliminou Charizard Y com Z-WATER 49.468 aos 1:10 e caiu ao Z-FIGHTING 53.526 de Lucario Z. Dragonite derrotou Lucario Z após duelo prolongado aos 2:11 com Massive Hurricane 5.082, mas caiu ao Wicked Blow 7.023 do Gyarados adversário aos 2:12. Sceptile eliminou Gyarados com Z-GRASS 31.835 + Mega Bloom 6.121 + Petal Bloom 6.292 + Eternal Dragon 2.604 aos 2:15, vencendo com 19.288/31.812 HP. Todos os cinco aliados entraram na ordem registrada."
     }
   ],
   "registration_rules": {
