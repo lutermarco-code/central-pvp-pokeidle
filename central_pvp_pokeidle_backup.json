@@ -1,7 +1,7 @@
 {
   "format": 1,
   "app": "Central PvP PokéIdle",
-  "updated": "2026-10-25",
+  "updated": "2026-10-27",
   "players": [
     {
       "name": "Befoin"
@@ -1023,6 +1023,30 @@
       "team_order_basis": "Os cinco Pokémon dos dois times e a ordem exata foram confirmados no replay pelos eventos 'começa com' e 'manda'. Luter: Sceptile → Gyarados → Lucario → Dragonite → Metagross. Joaogotty: Gyarados → Charizard Y → Tyranitar → Lucario Z → Venusaur.",
       "source": "Texto colado(20261025-024540).txt — replay completo enviado pelo usuário, com 'Luter venceu' aos 1:16.",
       "notes": "Vitória confirmada em 1min16s. Sceptile eliminou Gyarados (45.588 HP) com Z-GRASS 29.614, Mega Bloom 6.786, Petal Bloom 7.052 e Eternal Dragon 2.672 aos 0:05; caiu ao Z-FIRE 29.157 de Charizard Y. Gyarados eliminou Charizard Y com Z-WATER 46.040 aos 0:06, caiu ao Z-ROCK 38.309 de Tyranitar. Lucario eliminou Tyranitar com Z-FIGHTING 65.743 aos 0:07, caiu ao Z-FIGHTING 66.399 do Lucario Z. Dragonite eliminou Lucario Z com Massive Hurricane final 5.074 aos 1:08, depois desgastou Venusaur de 30.084 a 16.076 HP antes de cair aos 1:15. Metagross eliminou Venusaur com Z-PSYCHIC 36.197 aos 1:16 e venceu. Todos os cinco aliados entraram na ordem registrada."
+    },
+    {
+      "id": "win_042",
+      "player": "Takemori",
+      "date": "2026-10-27",
+      "duration": "0:29",
+      "ours": [
+        "✨Mega Dragonite",
+        "✨Mega Lucario",
+        "✨Mega Gyarados",
+        "✨Mega Sceptile",
+        "✨Mega Metagross"
+      ],
+      "theirs": [
+        "✨Mega Garchomp",
+        "✨Magnezone",
+        "✨Mega Tyranitar",
+        "✨Mega Charizard Y",
+        "✨Mega Lucario Z"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Os cinco Pokémon e a ordem efetiva de entrada de ambos os times foram confirmados pelo replay completo ('começa com' e 'manda'). A imagem anterior do oponente exibia Magnezone na primeira posição, mas no combate real Mega Garchomp abriu, seguido de Magnezone, Mega Tyranitar, Mega Charizard Y e Mega Lucario Z.",
+      "source": "Replay completo de vitória de Luter contra Takemori enviado no chat em 2026-10-27, com 'Luter venceu' aos 0:29. Texto enviado pelo usuario após o ajuste baseado no replay de derrota.",
+      "notes": "Vitória confirmada em 29 segundos. Dragonite eliminou Garchomp em 0:02 com Z-DRAGON 36.822, sofreu Z-ELECTRIC 16.993 de Magnezone e caiu aos 0:04. Lucario eliminou Magnezone com Z-FIGHTING 54.329 em 0:04 e Mega Tyranitar (46.344 HP) com Meteor Fists 17.596 + Mega Rampage 19.584 + Alloy Breaker 7.872 + Focus Punch 4.928 em 0:08; caiu para Z-FIRE 69.501 de Charizard Y em 0:09. Gyarados eliminou Charizard Y com Z-WATER 48.982 em 0:09 e caiu para Z-FIGHTING 87.099 de Lucario Z em 0:10. Sceptile enfrentou Lucario Z e o deixou com 16.073/27.108 HP antes de cair aos 0:28. Metagross finalizou Lucario Z com Z-PSYCHIC 14.945 + Mental Singularity 4.794 aos 0:29. Vitória com os cinco Pokémon usados. A ordem registrada reflete o combate real, não a ordem do print anterior."
     }
   ],
   "registration_rules": {
