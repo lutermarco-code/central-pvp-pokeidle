@@ -1074,6 +1074,30 @@
       "team_order_basis": "Formação de cinco Pokémon proposta ao usuário antes do combate: Luter Lucario → Metagross → Gyarados → Sceptile → Dragonite. Os quatro primeiros entraram efetivamente e em ordem no replay; Dragonite foi a 5ª reserva proposta, mas não entrou, portanto seu slot não é comprovado pelo log. A ordem completa do adversário (Tyranitar → Dragonite → Charizard Y → Gyarados → Cacturne) foi comprovada pelos cinco eventos 'começa com'/'manda' no replay.",
       "source": "Texto colado(20261030-134116).txt — replay completo enviado pelo usuário, encerrado por 'Luter venceu' em 3:17. Vitória anunciada pelo usuário como 'ganhamos, anota ai'.",
       "notes": "Vitória confirmada em 3min17s. Lucario eliminou Tyranitar de 37.236 HP com Z-FIGHTING 101.575 aos 0:02; depois enfrentou o Dragonite de 34.584 HP, que gastou Z-DRAGON 4.553 pouco efetivo, e o eliminou com Meteor Fists 1.885 aos 1:06; Lucario caiu para Z-FIRE 52.547 de Charizard Y aos 1:07. Metagross derrotou Charizard Y de 26.532 HP aos 1:13, usando Z-PSYCHIC 15.711 e golpes seguintes, terminando com Psyshield Bash 660; caiu para Z-WATER 18.565 do Mega Gyarados adversário aos 1:14. Gyarados aliado enfrentou o espelho de Gyarados, desgastou-o e caiu aos 2:16, deixando o adversário em 12.353/33.264 HP. Sceptile entrou e eliminou o Gyarados com Z-GRASS 40.732 aos 2:16; depois eliminou Cacturne de 23.292 HP em duelo prolongado, com Z-GRASS final 8.573 aos 3:17, sobrevivendo com 11.079/33.696 HP. Dragonite aliado era a 5ª posição previamente recomendada, não entrou nem foi necessário. Oponentes e ordem confirmados por log completo; vitória nova, sem duplicação."
+    },
+    {
+      "id": "win_044",
+      "player": "Bezeno",
+      "date": "2026-10-30",
+      "duration": "2:08",
+      "ours": [
+        "✨Mega Lucario",
+        "✨Mega Gyarados",
+        "✨Mega Dragonite",
+        "✨Mega Metagross",
+        "✨Mega Sceptile"
+      ],
+      "theirs": [
+        "✨Mega Tyranitar",
+        "✨Mega Charizard Y",
+        "✨Mega Lucario",
+        "✨Mega Venusaur",
+        "✨Mega Gyarados"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Os cinco Pokémon aliados e os cinco adversários entraram efetivamente em batalha, na ordem confirmada pelos eventos 'começa com' e 'manda' do replay de vitória. Luter: Mega Lucario → Mega Gyarados → Mega Dragonite → Mega Metagross → Mega Sceptile. Bezeno: Mega Tyranitar → Mega Charizard Y → Mega Lucario → Mega Venusaur → Mega Gyarados.",
+      "source": "Texto colado(20261030-142732).txt — replay completo enviado pelo usuário, encerrado por 'Luter venceu' em 2:08, após confirmação 'Adicione a vitoria'.",
+      "notes": "Vitória confirmada aos 2:08. Lucario +12 eliminou Tyranitar (36.288 HP) com Z-FIGHTING 92.562 aos 0:02; caiu para Z-FIRE 122.594 de Charizard Y aos 0:03. Gyarados +5 eliminou Charizard Y (35.052 HP) com Z-WATER 40.411 aos 0:03; caiu para Z-FIGHTING 52.017 de Mega Lucario aos 0:04. Dragonite +6 eliminou Mega Lucario (22.248 HP) com Massive Hurricane 4.542 aos 1:04 após longa luta; enfrentou Venusaur de 34.800 HP, usou segundo Z-DRAGON 11.624 e o deixou com 1.810 HP antes de cair aos 2:05. Metagross +5 eliminou Venusaur com Z-PSYCHIC 30.100 aos 2:06, causou Alloy Breaker 1.035 em Mega Gyarados e caiu para Wicked Blow 10.226 aos 2:07. Sceptile +5 eliminou Mega Gyarados (33.576 HP) com Z-GRASS 42.597 aos 2:08, encerrando o combate. Todos os cinco aliados e adversários entraram na ordem registrada; rotação adversária nova em relação às cinco vitórias anteriores contra Bezeno."
     }
   ],
   "registration_rules": {
