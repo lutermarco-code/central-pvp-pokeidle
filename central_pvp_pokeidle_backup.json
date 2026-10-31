@@ -1169,6 +1169,30 @@
       "team_order_basis": "Os cinco Pokémon de ambos os treinadores e as ordens exatas foram confirmados pelos eventos 'começa com' e 'manda' no replay completo. Luter: Metagross → Sceptile → Dragonite → Lucario → Gyarados. Cogu: Venusaur → Alakazam → Blaziken → Tyranitar → Charizard Y.",
       "source": "Texto colado(20261031-054426).txt — replay completo recebido em 31/10/2026; 'Luter venceu' em 1:20.",
       "notes": "Vitória confirmada em 1:20 contra nova rotação do Cogu. Metagross +5 começou contra Venusaur (34.740 HP) e venceu aos 0:03 com Z-PSYCHIC 33.254 + Mental Singularity 7.792, depois resistiu ao Alakazam e o deixou com 2.113/28.776 HP antes de cair aos 1:06. Sceptile +5 eliminou Alakazam com Z-GRASS 19.028 no 1:06; desgastou Blaziken de 24.828 para 16.154 HP antes de cair aos 1:17. Dragonite +6 venceu Blaziken com Z-DRAGON 14.164 + Massive Hurricane 7.724 no 1:18, caiu ao Z-ROCK 47.029 do Tyranitar em 1:19. Lucario +12 eliminou Tyranitar (31.476 HP) com Z-FIGHTING 110.769 em 1:19; caiu ao Z-FIRE 105.504 do Charizard Y. Gyarados +5 eliminou Charizard Y (42.396 HP) com Z-WATER 45.659 em 1:20 e garantiu a vitória. Todos os dez Pokémon entraram e suas posições foram confirmadas; nova rotação em relação às vitórias anteriores contra Cogu."
+    },
+    {
+      "id": "win_048",
+      "player": "Lotuzx",
+      "date": "2026-10-31",
+      "duration": "1:30",
+      "ours": [
+        "✨Mega Gyarados",
+        "✨Mega Sceptile",
+        "✨Mega Metagross",
+        "✨Mega Lucario",
+        "✨Mega Dragonite"
+      ],
+      "theirs": [
+        "✨Weavile",
+        "✨Mega Gyarados",
+        "✨Golem",
+        "✨Mega Tyranitar",
+        "✨Shiftry"
+      ],
+      "entered_count": 4,
+      "team_order_basis": "Os quatro Pokémon usados são confirmados no replay: Gyarados → Sceptile → Metagross → Lucario. Dragonite era o quinto integrante confirmado da formação recomendada imediatamente antes do combate; não entrou no replay. Os cinco adversários são confirmados por 'começa com' e 'manda': Weavile → Mega Gyarados → Golem → Mega Tyranitar → Shiftry.",
+      "source": "Texto colado(20261031-063713).txt — replay completo fornecido pelo usuário, encerrado com 'Luter venceu' em 1:30; usuário confirmou explicitamente a vitória.",
+      "notes": "Vitória contra nova rotação de Lotuzx aos 1:30. Mega Gyarados eliminou Weavile com Z-WATER 44.234 em 0:02, depois caiu em 0:46 para o Mega Gyarados adversário, que ficou com 14.204/22.836 HP. Sceptile eliminou Mega Gyarados adversário com Z-GRASS 44.219 aos 0:46, venceu Golem (43.860 HP) aos 0:53 com golpes Grass, incluindo Petal Bloom 23.446; caiu ao Z-ROCK 85.583 do Tyranitar aos 0:54. Metagross atingiu Tyranitar com Alloy Breaker 3.719, caiu ao Endless Hollow 25.645 aos 0:55. Lucario eliminou Tyranitar (54.733 HP restantes) com Z-FIGHTING 58.570 aos 0:55; venceu Shiftry (46.128 HP) aos 1:30, restando 22.208/34.296 HP, usando ataques Fighting e Steel. Dragonite foi a quinta reserva confirmada pela formação planejada, mas não entrou. Vitória não deve ser duplicada com outras rotações de Lotuzx."
     }
   ],
   "registration_rules": {
