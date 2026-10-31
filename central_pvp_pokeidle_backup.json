@@ -1,7 +1,7 @@
 {
   "format": 1,
   "app": "Central PvP PokéIdle",
-  "updated": "2026-10-30",
+  "updated": "2026-10-31",
   "players": [
     {
       "name": "Befoin"
@@ -1145,6 +1145,30 @@
       "team_order_basis": "O replay completo confirma a ordem real dos quatro aliados que entraram: Lucario → Gyarados → Dragonite → Metagross. O usuário relatou ter entrado na fila com um preset diferente da formação planejada. O quinto integrante/posição desse preset não foi identificado no replay e, por isso, NÃO foi inventado nem registrado. O replay comprova todos os cinco adversários em ordem: Steelix → Dragonite → Swampert → Charizard Y → Meganium. O print anterior (Dragonite, Meganium, Ampharos, Steelix, Altaria) não correspondeu ao combate efetivo.",
       "source": "Texto colado(20261030-151835).txt — replay completo encerrado com 'Luter venceu' em 2:31. Usuário confirmou: 'O rodrigo eu dei fila com o time errado e ganhei com o que tava no preset kkk'.",
       "notes": "Vitória confirmada em 2min31s, com preset não intencional. Lucario +12 começou contra Steelix (29.472 HP) e eliminou com Z-FIGHTING 33.761 aos 0:02, sobrevivendo com 1.459/34.068 HP; caiu para Z-FLYING 30.609 do Dragonite adversário aos 0:03. Gyarados +5 enfrentou o Dragonite adversário (36.072 HP), causou Wicked Blow 3.338 e Z-WATER 4.807 pouco efetivo, entre outros golpes, reduzindo-o para 24.946 HP antes de cair aos 0:13. Dragonite +6 entrou aos 0:13 e eliminou Dragonite adversário com Z-DRAGON 26.298, depois venceu Swampert (30.924 HP) em duelo longo aos 1:13, com segundo Z-DRAGON 21.003; desgastou Charizard Y de 34.860 para 955 HP antes de cair aos 2:14. Metagross +5 entrou e eliminou Charizard Y com Z-PSYCHIC 13.519 aos 2:14; venceu Meganium (20.808 HP) aos 2:31 com Alloy Breaker 9.296 e golpes adicionais, terminando com 14.648/24.168 HP. O quinto Pokémon aliado não entrou e sua identidade/posição não foi confirmada no replay. A formação real adversária tem Swampert e Charizard Y, e não apresentou Ampharos nem Altaria do print anterior. Rotação inédita contra rodrigogurgel."
+    },
+    {
+      "id": "win_047",
+      "player": "Cogu",
+      "date": "2026-10-31",
+      "duration": "1:20",
+      "ours": [
+        "✨Mega Metagross",
+        "✨Mega Sceptile",
+        "✨Mega Dragonite",
+        "✨Mega Lucario",
+        "✨Mega Gyarados"
+      ],
+      "theirs": [
+        "✨Mega Venusaur",
+        "✨Mega Alakazam",
+        "✨Mega Blaziken",
+        "✨Mega Tyranitar",
+        "✨Mega Charizard Y"
+      ],
+      "entered_count": 5,
+      "team_order_basis": "Os cinco Pokémon de ambos os treinadores e as ordens exatas foram confirmados pelos eventos 'começa com' e 'manda' no replay completo. Luter: Metagross → Sceptile → Dragonite → Lucario → Gyarados. Cogu: Venusaur → Alakazam → Blaziken → Tyranitar → Charizard Y.",
+      "source": "Texto colado(20261031-054426).txt — replay completo recebido em 31/10/2026; 'Luter venceu' em 1:20.",
+      "notes": "Vitória confirmada em 1:20 contra nova rotação do Cogu. Metagross +5 começou contra Venusaur (34.740 HP) e venceu aos 0:03 com Z-PSYCHIC 33.254 + Mental Singularity 7.792, depois resistiu ao Alakazam e o deixou com 2.113/28.776 HP antes de cair aos 1:06. Sceptile +5 eliminou Alakazam com Z-GRASS 19.028 no 1:06; desgastou Blaziken de 24.828 para 16.154 HP antes de cair aos 1:17. Dragonite +6 venceu Blaziken com Z-DRAGON 14.164 + Massive Hurricane 7.724 no 1:18, caiu ao Z-ROCK 47.029 do Tyranitar em 1:19. Lucario +12 eliminou Tyranitar (31.476 HP) com Z-FIGHTING 110.769 em 1:19; caiu ao Z-FIRE 105.504 do Charizard Y. Gyarados +5 eliminou Charizard Y (42.396 HP) com Z-WATER 45.659 em 1:20 e garantiu a vitória. Todos os dez Pokémon entraram e suas posições foram confirmadas; nova rotação em relação às vitórias anteriores contra Cogu."
     }
   ],
   "registration_rules": {
